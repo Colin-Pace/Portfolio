@@ -54,6 +54,11 @@ h2, h5, h3 {
   color: #d8dcd6;
 }
 
+h2 {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
 p, .item {
   color: lime;
   line-height: 200%;
