@@ -10,7 +10,7 @@ body {
 header {
   padding: 30px;
   text-align: center;
-  background: #36454f;
+  background: black;
   color: white;
 }
 
@@ -44,62 +44,31 @@ nav a:hover {
 }
 
 .card {
-  padding: 20px;
+  padding: 40px;
   margin-top: 20px;
-  background-color: #36454f;
+  background-color: black;
   overflow: hidden;
 }
 
-#entriesCard {
-  height: 1000px;
-}
-
-h2, h5, p, h3 {
+h2, h5, h3 {
   color: #d8dcd6;
 }
 
-.entry {
-  text-decoration: none;
-  color: #d8dcd6;
+h2 {
+  margin-top: 70px;
+  margin-bottom: 70px;
 }
 
-li {
-  list-style-type: none;
-  margin-top: 10px;
-  padding: 10px;
+p, .item {
+  color: lime;
+  line-height: 200%;
+  margin-top: 40px;
+  font-weight: bold;
 }
 
-.dropdown-content {
-  display: none;
-  border-color: darkgray;
-  border-width: 1px;
-  border-style: solid;
+span {
+  font-style: italic;
 }
-
-.dropbtn {
-  color: black;
-  background: gray;
-  height: 40px;
-  width: 100%;
-  font-size: 24px;
-}
-
-.dropdown {
-  width: 50%;
-  margin-bottom: 20px;
-  margin-left: 30px;
-}
-
-.dropdown a:hover {
-  color: #CC5500;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-  padding-bottom: 20px;
-}
-
-
 
 @media screen and (max-width: 600px) {
   .navbar a {
