@@ -54,6 +54,18 @@ h2, h5, p {
   color: #d8dcd6;
 }
 
+#text {
+  display: flex;
+  justify-content: center;
+}
+
+#transcript, #transcript:visited, #transcript:active {
+  text-decoration: none;
+  color: #CC5500;
+}
+
+
+
 @media screen and (max-width: 600px) {
   .navbar a {
     float: none;
