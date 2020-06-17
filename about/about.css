@@ -64,7 +64,9 @@ h2, h5, p {
   color: #CC5500;
 }
 
-
+#name {
+  color: #CC5500;
+}
 
 @media screen and (max-width: 600px) {
   .navbar a {
