@@ -52,6 +52,7 @@ nav a:hover {
 
 h2, h5, p {
   color: #d8dcd6;
+  line-height: 200%;
 }
 
 #text {
