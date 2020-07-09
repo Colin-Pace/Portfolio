@@ -68,39 +68,44 @@ li a:visited {
 main {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: left;
 }
 
-main section {
-  margin-bottom: 20px;
+#resume {
+  text-align: center;
 }
 
-main section h2 {
-  margin-bottom: 40px;
+#projects {
+  margin-top: 20px;
 }
 
-main p {
-  margin-bottom: 40px;
+table tr td {
+  padding-bottom: 20px;
+  width: 1%;
 }
 
-footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  margin-top: 40px;
-  margin-bottom: 70px;
-  font-size: 14px;
-}
-
-footer a {
+table tr td a {
   text-decoration: none;
   color: #484848;
 }
 
-footer a:hover {
+table tr td a:hover {
   text-decoration: underline;
+  color: #484848;
 }
 
-footer a:visited {
+table tr td a:visited {
+  text-decoration: none;
   color: #484848;
+}
+
+#technology, #education, #awards, #research{
+  padding-top: 40px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 70px;
 }
