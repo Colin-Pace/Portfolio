@@ -71,11 +71,8 @@ main {
 }
 
 #resume {
-  text-align: center;
-}
-
-#projects {
-  margin-top: 20px;
+  text-align: left;
+  margin-bottom: 40px;
 }
 
 table tr td {
