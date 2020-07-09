@@ -17,18 +17,19 @@ body {
   padding-right: 275px;
 }
 
-nav {
-  margin-bottom: 60px;
-}
-
-nav ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-}
-
-nav ul li a {
+p a {
   font-size: 16px;
+  list-style-type: none;
+  text-decoration: none;
+  color: #484848;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+
+p a:visited {
+  text-decoration: none;
 }
 
 header {
@@ -36,7 +37,7 @@ header {
 }
 
 header h1 {
-  font-size: 45px;
+  font-size: 60px;
   weight: lighter;
 }
 
