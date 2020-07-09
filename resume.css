@@ -7,7 +7,7 @@ html, body {
   padding: 0;
   border: 0;
   background: #fdfeff;
-  line-height: 1;
+  line-height: 2;
   font-family: arial, sans-serif;
   color: #484848;
 }
@@ -42,7 +42,7 @@ header h1 {
 }
 
 #discipline {
-  margin-top: -20px;
+  margin-top: -40px;
   margin-bottom: 40px;
 }
 
