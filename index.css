@@ -83,6 +83,10 @@ main p {
   margin-bottom: 40px;
 }
 
+span {
+  font-style: italic;
+}
+
 footer {
   display: flex;
   justify-content: space-between;
