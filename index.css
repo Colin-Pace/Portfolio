@@ -9,7 +9,7 @@ html, body {
   background: #fdfeff;
   line-height: 2;
   font-family: arial, sans-serif;
-  color: #484848;
+  color: black;
 }
 
 body {
@@ -137,6 +137,7 @@ footer a:visited {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: 16px;
   }
 
   main {
