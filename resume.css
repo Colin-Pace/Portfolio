@@ -9,7 +9,7 @@ html, body {
   background: #fdfeff;
   line-height: 2;
   font-family: arial, sans-serif;
-  color: #484848;
+  color: #000000;
 }
 
 body {
@@ -21,7 +21,7 @@ p a {
   font-size: 16px;
   list-style-type: none;
   text-decoration: none;
-  color: #484848;
+  color: #000000;
 }
 
 p a:hover {
@@ -54,7 +54,7 @@ ul li {
 
 li a {
   text-decoration: none;
-  color: #484848;
+  color: #000000;
 }
 
 li a:hover {
@@ -62,7 +62,7 @@ li a:hover {
 }
 
 li a:visited {
-  color: #484848;
+  color: #000000;
 }
 
 main {
@@ -82,17 +82,17 @@ table tr td {
 
 table tr td a {
   text-decoration: none;
-  color: #484848;
+  color: #000000;
 }
 
 table tr td a:hover {
   text-decoration: underline;
-  color: #484848;
+  color: #000000;
 }
 
 table tr td a:visited {
   text-decoration: none;
-  color: #484848;
+  color: #000000;
 }
 
 table tr td {
