@@ -95,6 +95,11 @@ table tr td a:visited {
   color: #484848;
 }
 
+table tr td {
+  vertical-align: top;
+  padding-bottom: 20px;
+}
+
 #technology, #education, #awards, #research{
   padding-top: 40px;
 }
@@ -104,4 +109,54 @@ footer {
   flex-direction: column;
   align-items: center;
   margin-bottom: 70px;
+}
+
+@media screen and (max-width: 1050px) {
+  body {
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  table tr td {
+    vertical-align: top;
+    padding-bottom: 20px;
+  }
+}
+
+
+@media screen and (max-width: 680px) {
+  body {
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  main {
+    justify-content: flex-start;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer a, footer p {
+    font-size: 20px;
+  }
+
+  table tr td {
+    vertical-align: top;
+    padding-bottom: 20px;
+  }
+
+  .description {
+    padding-left: 40px;
+  }
 }
