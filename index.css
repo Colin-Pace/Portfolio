@@ -12,6 +12,10 @@ html, body {
   color: black;
 }
 
+.projectLink {
+  text-decoration: underline;
+}
+
 body {
   padding-left: 275px;
   padding-right: 275px;

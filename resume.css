@@ -111,6 +111,10 @@ footer {
   margin-bottom: 70px;
 }
 
+.projectLink {
+  text-decoration: underline;
+}
+
 @media screen and (max-width: 1050px) {
   body {
     padding-left: 100px;
