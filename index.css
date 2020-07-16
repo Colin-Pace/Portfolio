@@ -12,8 +12,9 @@ html, body {
   color: black;
 }
 
-.projectLink {
+main section p a {
   text-decoration: underline;
+  color: black;
 }
 
 body {
