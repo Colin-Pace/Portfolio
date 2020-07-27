@@ -22,6 +22,20 @@ body {
   padding-right: 275px;
 }
 
+#resume {
+  font-size: 16px;
+  text-decoration: underline;
+  color: black;
+}
+
+#resume:hover {
+  text-decoration: underline;
+}
+
+#resume:visited {
+  text-decoration: none;
+}
+
 p a {
   font-size: 16px;
   list-style-type: none;
