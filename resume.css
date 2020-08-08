@@ -100,7 +100,7 @@ table tr td {
   padding-bottom: 20px;
 }
 
-#technology, #education, #awards, #research{
+#technology, #education, #awards, #research, #recreations {
   padding-top: 40px;
 }
 
@@ -113,6 +113,19 @@ footer {
 
 .projectLink {
   text-decoration: underline;
+}
+
+#transcriptLink {
+  text-decoration: underline;
+  color: black;
+}
+
+#transcriptLink:hover {
+  text-decoration: underline;
+}
+
+#transcriptLink:visited {
+  text-decoration: none;
 }
 
 @media screen and (max-width: 1050px) {
