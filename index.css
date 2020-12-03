@@ -10,6 +10,9 @@ html, body {
   line-height: 2;
   font-family: arial, sans-serif;
   color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 main section p a {
