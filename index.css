@@ -111,11 +111,11 @@ span {
 
 footer {
   display: flex;
-  justify-content: space-between;
-  align-items: baseline;
+  flex-direction: column;
+  align-items: center;
   margin-top: 40px;
   margin-bottom: 70px;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 footer a {
