@@ -25,21 +25,21 @@ function App() {
       <h3 id = 'webDevTitle'>Web Development</h3>
       
       <div id = "navBar">
-        <p
+        <a
           className = 'navTitle'
           onClick = {handleProfileClick}
           id = {display === 'profile' ? 'selectedProfileTitle' : 'profileTitle'}
-        >Profile</p>
-        <p 
+        >Profile</a>
+        <a
           className = 'navTitle'
           onClick = {handleProjectsClick}
           id = {display === 'projects' ? 'selectedProjectsTitle' : 'projectsTitle'}
-        >Projects</p>
-        <p 
+        >Projects</a>
+        <a
           className = 'navTitle'
           onClick = {handleResumeClick}
           id = {display === 'resume' ? 'selectedResumeTitle' : 'resumeTitle'}
-        >Resume</p>
+        >Resume</a>
       </div>
       
       { display === 'profile' ? 
