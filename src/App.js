@@ -52,19 +52,25 @@ function App() {
       <div id = 'footer'>
         <p id = 'footerTitle'>Contact me:</p>
         <div id = 'contacts'>
-          <img 
-            className = 'contactIcon' 
-            src = {require('./linkedIn.png')}
-          />
-          <img 
-            id = 'githubIcon' 
-            className = 'contactIcon' 
-            src = {require('./github.png')}
-          />
-          <img 
-            className = 'contactIcon' 
-            src = {require('./gmail.png')}
-          />
+          <a href = 'https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile'>
+            <img 
+              className = 'contactIcon' 
+              src = {require('./linkedIn.png')}
+            />
+          </a>
+          <a href = 'https://github.com/Colin-Pace?tab=repositories'>
+            <img 
+              id = 'githubIcon' 
+              className = 'contactIcon' 
+              src = {require('./github.png')}
+            />
+          </a>
+          <a>
+            <img 
+              className = 'contactIcon' 
+              src = {require('./gmail.png')}
+            />
+          </a>
         </div>
       </div>
     </div>

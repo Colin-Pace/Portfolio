@@ -54,7 +54,7 @@ function Resume() {
           <p className = 'moreInfoRight'>Department of Education Foreign Language Area Scholarships, 2012 - 2014</p>
           <p className = 'moreInfoRight'>Graduate Record Examinations (GRE) 96th percentile nationally in both verbal reasoning and analytical writing, 2009</p>
         </div>
-      </div>
+      </div> 
     </div>
   );
 }
