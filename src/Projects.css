@@ -1,10 +1,49 @@
-#profileTitle {
-  font-size: 35px;
+#projectsTitle {
+  font-size: 35px; 
   text-align: center;
 }
 
-.profileText {
+.projectImageContainer {
+  margin: auto;
+  padding-left: 10%;
+}
+
+.projectImage {
+  border: 1px solid rgb(187, 187, 187);
+  border-radius: 25px;
+  box-shadow: 10px 10px 5px #999;
+  height: 500px;
+  width: 800px;
+}
+
+.imageTitle {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 70px;
+  color: rgb(131, 131, 131);
+}
+
+.imageText {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
   line-height: 200%;
+  margin-bottom: 20px;
+}
+
+.imageLinks {
+  margin-bottom: 200px;
+}
+
+.imageLinks {
+  text-align: center;
+}
+
+a {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.imageLinks a:visited {
+  color: black;
 }
