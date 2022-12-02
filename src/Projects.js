@@ -60,6 +60,23 @@ function Projects() {
       <div className = 'projectImageContainer'>
         <img 
           className = 'projectImage'
+          src = {require('./dijkstra.png')}
+        />
+      </div>
+      <h3 className = 'imageTitle'>Dijkstra's Algorithm Illustrated</h3>
+      <p className = 'imageText'>A vanilla JavaScript game that illustrates Dijkstra's algorithm. The game is to use the up, down, left, and right keys to move steps away from the green block that follows the user's blue block. The path that the green block takes is determined by Dijkstra's algorithm. The board is a wrap around board, which enables the user to move from side to side relatively easily.</p>
+      <div className = 'imageLinks'>
+        <a 
+          href="https://colin-pace.github.io/DijkstraIllustrated/"
+        >Live app</a><br/><br/>
+        <a 
+          href="https://github.com/Colin-Pace/DijkstraIllustrated" 
+        >GitHub</a>
+      </div>
+
+      <div className = 'projectImageContainer'>
+        <img 
+          className = 'projectImage'
           src = {require('./aap.png')}
         />
       </div>
