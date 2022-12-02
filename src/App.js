@@ -65,7 +65,11 @@ function App() {
               src = {require('./github.png')}
             />
           </a>
-          <a>
+          <a
+            href = 'mailto:colinpace1987@gmail.com'
+            target = '_blank'
+            rel = 'noopener noreferrer'
+          >
             <img 
               className = 'contactIcon' 
               src = {require('./gmail.png')}
