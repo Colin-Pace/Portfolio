@@ -33,10 +33,10 @@ function Projects() {
       <p className = 'imageText'>The Twitter Clone is a front end application in React that allows a user to register an account and log in to the website. Once logged in, the user can make Tweets and comment on Tweets. Other features include the ability to view the user's profile page and the profile pages of other users. On other users' profile pages, a user can follow them and then see those users' tweets in the user's home page. The technology used in the application is described in the ReadMe on GitHub.</p>
       <div className = 'imageLinks'>
         <a 
-          href=""
+          href="https://colin-pace.github.io/TwitterClone/"
         >Live app</a><br/><br/>
         <a 
-          href="" 
+          href="https://github.com/Colin-Pace/TwitterClone" 
         >GitHub</a>
       </div>
 
@@ -67,10 +67,10 @@ function Projects() {
       <p className = 'imageText'>Algorithms and Programs is a book that introduces the reader to the syntax of JavaScript and then the basic data structures and algorithms. The book is intended for beginners and has prose that will be familiar to those who are used to studying syntax of human languages also.</p>
       <div className = 'imageLinks'>
         <a 
-          href=""
+          href="https://colin-pace.github.io/AlgorithmsAndPrograms/"
         >Live app</a><br/><br/>
         <a 
-          href="" 
+          href="https://github.com/Colin-Pace/AlgorithmsAndPrograms" 
         >GitHub</a>
       </div>
 
