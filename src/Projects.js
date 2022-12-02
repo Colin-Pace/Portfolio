@@ -81,7 +81,7 @@ function Projects() {
         />
       </div>
       <h3 className = 'imageTitle'>Algorithms and Programs: An introduction with JavaScript</h3>
-      <p className = 'imageText'>Algorithms and Programs is a book that introduces the reader to the syntax of JavaScript and then the basic data structures and algorithms. The book is intended for beginners and has prose that will be familiar to those who are used to studying syntax of human languages also.</p>
+      <p className = 'imageText'><i>Algorithms and Programs</i> is a book that introduces the reader to the syntax of JavaScript and then to basic data structures and algorithms. The book is intended for beginners and has a style of prose that is familiar to those who are used to studying the syntax of human languages.</p>
       <div className = 'imageLinks'>
         <a 
           href="https://colin-pace.github.io/AlgorithmsAndPrograms/"
