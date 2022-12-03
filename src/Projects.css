@@ -4,10 +4,6 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* .projectImageContainer {
-  text-align: center;
-} */
-
 .projectImage {
   border: 1px solid rgb(187, 187, 187);
   border-radius: 25px;
@@ -18,6 +14,7 @@
   margin-left: auto;
   margin-right: auto;
   width: 99%;
+  height: 99%;
 }
 
 .imageTitle {
