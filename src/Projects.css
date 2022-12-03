@@ -4,9 +4,9 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.projectImageContainer {
+/* .projectImageContainer {
   text-align: center;
-}
+} */
 
 .projectImage {
   border: 1px solid rgb(187, 187, 187);
@@ -24,6 +24,10 @@
   color: rgb(131, 131, 131);
 }
 
+.textContainer {
+  background-color: green;
+}
+
 .imageText {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
@@ -33,10 +37,8 @@
 
 .imageLinks {
   margin-bottom: 200px;
-}
-
-.imageLinks {
   text-align: center;
+  color: black;
 }
 
 a {

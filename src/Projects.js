@@ -4,8 +4,6 @@ import './Projects.css';
 function Projects() {
   return (
     <div> 
-      <h3 id = "projectsTitle">Projects</h3>
-
       <div className = 'projectImageContainer'>
         <img 
           className = 'projectImage'
@@ -13,7 +11,9 @@ function Projects() {
         />
       </div> 
       <h3 className = 'imageTitle'>Notes Organizer</h3>
-      <p className = 'imageText'>Notes organizer is a front end application that enables the user to create, read, update, and delete notes. Another feature of the application is the sorting option, which can sort the notes according to newest to oldest or oldest to newest. The technology used in the application is described in the GitHub ReadMe, which is linked to below.</p>
+      <div className = 'textContainer'>
+        <p className = 'imageText'>Notes organizer is a front end application that enables the user to create, read, update, and delete notes. Another feature of the application is the sorting option, which can sort the notes according to newest to oldest or oldest to newest. The technology used in the application is described in the GitHub ReadMe, which is linked to below.</p>
+      </div>
       <div className = 'imageLinks'>
         <a 
           href="https://colin-pace.github.io/Notes/"
