@@ -8,21 +8,21 @@ function Resume() {
         <div id = 'resumeLeft'>
           <div id = 'experience'>
             <p className = 'sideTitle'>Experience</p>
-            <p className = 'title'>Research Engineering Scientist Associate I - Pickle Research Campus</p>
+            <p className = 'title'>Research Engineering Scientist Associate I - Pickle Research Campus, The University of Texas at Austin</p>
             <p className = 'title'>American Institute of Indian Studies - Hindi Langauge Program</p>
           </div>
 
           <div className = 'edStint'>
             <p className = 'sideTitle'>Education</p>
-            <p className = 'school'>Certificate - The Coding Boot Camp at The University of Texas at Austin</p>
+            <p className = 'school'>Certificate from The Coding Boot Camp - The University of Texas at Austin</p>
           </div>
 
           <div className = 'edStint'>
-            <p className = 'school'>MA - The University of Texas at Austin</p>
+            <p className = 'school'>MA in Asian Cultures and Languages - The University of Texas at Austin</p>
           </div>
 
           <div className = 'edStint'>
-            <p className = 'school'>BA - The University of Texas at Austin</p>
+            <p className = 'school'>BA in Anthropology - The University of Texas at Austin</p>
           </div>
         </div>
         <div id = 'resumeRight'>
