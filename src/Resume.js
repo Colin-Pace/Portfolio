@@ -40,9 +40,9 @@ function Resume() {
           <p className = 'moreInfoRight'>Google Docs</p>
           <p className = 'moreInfoRight'>Hindi (conversational)</p>
           <p id = 'accomplishments' className = 'sideTitle'>Accomplishments</p>
-          <p className = 'moreInfoRight'>National Science Foundation Graduate Research Fellowship, 2014 - 2017</p>
-          <p className = 'moreInfoRight'>Department of Education Foreign Language Area Scholarships, 2012 - 2014</p>
-          <p className = 'moreInfoRight'>Graduate Record Examinations (GRE) 96th percentile nationally in both verbal reasoning and analytical writing, 2009</p>
+          <p className = 'moreInfoRight'>National Science Foundation Graduate Research Fellowship</p>
+          <p className = 'moreInfoRight'>Department of Education Foreign Language Area Scholarships</p>
+          <p className = 'moreInfoRight'>Graduate Record Examinations (GRE) 96th percentile nationally in both verbal reasoning and analytical writing</p>
         </div>
       </div> 
     </div>
