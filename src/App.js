@@ -52,7 +52,7 @@ function App() {
       <div id = 'footer'>
         <p id = 'footerTitle'>Contact me:</p>
         <div id = 'contacts'>
-          <a href = 'https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile'>
+          <a href = 'www.linkedin.com/in/colin-pace-6b7ba7241'>
             <img 
               className = 'contactIcon' 
               src = {require('./linkedIn.png')}
