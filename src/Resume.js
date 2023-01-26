@@ -9,7 +9,7 @@ function Resume() {
           <div id = 'experience'>
             <p className = 'sideTitle'>Experience</p>
             <p className = 'title'>Research and Machine Intelligence Analyst - GlobalLogic</p>
-            <p className = 'title'>Research Engineering Scientist Associate I - Applied Research Laboratories, Pickle Research Campus, The University of Texas at Austin</p>
+            <p className = 'title'>Research Engineering Scientist Associate I - Applied Research Laboratories</p>
           </div>
 
           <div className = 'edStint'>
