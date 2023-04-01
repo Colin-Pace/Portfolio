@@ -22,8 +22,8 @@ function App() {
   return ( 
     <div className="App">
       <h1 id = 'nameTitle'>Colin Pace</h1>
-      <a id = 'blog'
-         href = "https://colin-pace.github.io/Blog/">Blog</a>
+      {/* <a id = 'blog'
+         href = "https://colin-pace.github.io/Blog/">Blog</a> */}
       
       <div id = "navBar">
         <a
