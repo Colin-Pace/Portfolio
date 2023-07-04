@@ -30,8 +30,8 @@ function Resume() {
         </div>
         <div id = 'resumeRight'>
           <p className = 'sideTitle'>Skills</p>
-          <p className = 'moreInfoRight'>Web Development</p>
           <p className = 'moreInfoRight'>Project Management</p>
+          <p className = 'moreInfoRight'>Web Development</p>
           <p className = 'moreInfoRight'>Microsoft Office</p>
           <p className = 'moreInfoRight'>Google Docs, Sheets, Slides</p>
           <p className = 'moreInfoRight'>Hindi (conversational)</p>
