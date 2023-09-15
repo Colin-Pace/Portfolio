@@ -23,7 +23,7 @@ function App() {
     <div className="App">
       <h1 id = 'nameTitle'>Colin Pace</h1>
       <a id = 'blog'
-         href = "https://colin-pace.github.io/Blog/">Blog</a>
+         href = "https://medium.com/@colinpace1987">Blog</a>
       
       <div id = "navBar">
         <a
