@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.039a8c31.css",
-    "main.js": "/Portfolio/static/js/main.57d7d63e.js",
+    "main.js": "/Portfolio/static/js/main.b5a7e827.js",
     "static/media/nyt.png": "/Portfolio/static/media/nyt.104729890bcd4203ac23.png",
     "static/media/twitter.png": "/Portfolio/static/media/twitter.1267bea3fea27fdbd6bc.png",
     "static/media/notes.png": "/Portfolio/static/media/notes.bc33ef0a3fb226172cfc.png",
@@ -9,10 +9,10 @@
     "static/media/dijkstra.png": "/Portfolio/static/media/dijkstra.3fbc3929a720666ba841.png",
     "index.html": "/Portfolio/index.html",
     "main.039a8c31.css.map": "/Portfolio/static/css/main.039a8c31.css.map",
-    "main.57d7d63e.js.map": "/Portfolio/static/js/main.57d7d63e.js.map"
+    "main.b5a7e827.js.map": "/Portfolio/static/js/main.b5a7e827.js.map"
   },
   "entrypoints": [
     "static/css/main.039a8c31.css",
-    "static/js/main.57d7d63e.js"
+    "static/js/main.b5a7e827.js"
   ]
 }
