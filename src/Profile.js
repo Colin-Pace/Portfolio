@@ -4,8 +4,7 @@ import './Profile.css';
 function Profile() { 
   return ( 
     <div> 
-      <p className = 'profileText'>I live in Austin where I was a student at the University of Texas at Austin (UT) from 2006 - 2017. During my time as a student, I also traveled internationally, and I studied a few languages. In terms of work, I am a project coordinator at a business based in San Diego.</p>
-      <p id = 'lastText' className = 'profileText'>I have a BA and MA degree and a coding certificate from UT and a certificate for project management from Google.</p>
+      <p className = 'profileText'>A science blogger, vegan, and liberal Democrat, I have placed nationally in the 99th and 96th percentiles on standardized tests, each time in two categories. I have a BA, MA, and coding boot camp certificate from The University of Texas at Austin, one of the top 50 universities in the world.</p>
     </div>
   );
 }
