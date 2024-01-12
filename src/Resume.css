@@ -65,12 +65,10 @@
 @media (max-width: 480px) {
   #resumeContainer {
     flex-direction: column;
-    /* align-items: center; */
   }
   
   #resumeRight {
     padding-left: 0px;
-    color: red;
   }
 
   #resumeLeft {
