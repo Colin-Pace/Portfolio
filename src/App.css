@@ -27,8 +27,12 @@ body {
 
 #blog {
   font-size: 25px;
-  color: #cc5500;
+  /* color: #cc5500; */
   text-decoration: none;
+}
+
+#blog:visited {
+  color: black;
 }
 
 a {
