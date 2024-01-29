@@ -90,17 +90,32 @@ a {
   color: #cc5500;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 580px) {
   body {
     padding: 20px;
   }
 
+  #top {
+    margin-top: -100px;
+  }
+
   #navBar {
     flex-direction: column;
+    margin-left: 150px;
+    margin-top: 150px;
   }
 
   #selectedProjectsTitle, #projectsTitle {
     margin-top: 20px;
     margin-bottom: 20px;
+  }
+
+  #selectedProfileTitle, #selectedProjectsTitle, #selectedResumeTitle, #profileTitle, #projectsTitle, #resumeTitle {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  #blog {
+    margin-top: 20px;
   }
 }

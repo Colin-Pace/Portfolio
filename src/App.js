@@ -26,7 +26,7 @@ function App() {
         <h1 id = "nameTitle">Colin Pace</h1>
         
         <div id = "navBar">
-          <a
+          <a 
             className = 'navTitle'
             onClick = {handleProfileClick}
             id = {display === 'profile' ? 'selectedProfileTitle' : 'profileTitle'}
