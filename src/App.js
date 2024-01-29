@@ -43,7 +43,9 @@ function App() {
           >Resume</a>
         
           <a id = 'blog'
-            href = "https://medium.com/@colinpace1987">Blog</a>
+            href = "https://medium.com/@colinpace1987"
+            target="_blank"
+          >Blog</a>
         </div>
 
       </div>
