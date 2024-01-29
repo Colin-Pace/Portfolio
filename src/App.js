@@ -30,7 +30,7 @@ function App() {
             className = 'navTitle'
             onClick = {handleProfileClick}
             id = {display === 'profile' ? 'selectedProfileTitle' : 'profileTitle'}
-          >Profile</a>
+          >Bio</a>
           <a
             className = 'navTitle'
             onClick = {handleProjectsClick}
