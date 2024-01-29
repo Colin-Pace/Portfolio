@@ -20,28 +20,34 @@ function App() {
   }
 
   return ( 
-    <div className="App">
-      <h1 id = 'nameTitle'>Colin Pace</h1>
-      <a id = 'blog'
-         href = "https://medium.com/@colinpace1987">Blog</a>
-      
-      <div id = "navBar">
-        <a
-          className = 'navTitle'
-          onClick = {handleProfileClick}
-          id = {display === 'profile' ? 'selectedProfileTitle' : 'profileTitle'}
-        >Profile</a>
-        <a
-          className = 'navTitle'
-          onClick = {handleProjectsClick}
-          id = {display === 'projects' ? 'selectedProjectsTitle' : 'projectsTitle'}
-        >Projects</a>
-        <a
-          className = 'navTitle'
-          onClick = {handleResumeClick}
-          id = {display === 'resume' ? 'selectedResumeTitle' : 'resumeTitle'}
-        >Resume</a>
+    <div className="App"> 
+      <div id = "top">
+
+        <h1 id = "nameTitle">Colin Pace</h1>
+        
+        <div id = "navBar">
+          <a
+            className = 'navTitle'
+            onClick = {handleProfileClick}
+            id = {display === 'profile' ? 'selectedProfileTitle' : 'profileTitle'}
+          >Profile</a>
+          <a
+            className = 'navTitle'
+            onClick = {handleProjectsClick}
+            id = {display === 'projects' ? 'selectedProjectsTitle' : 'projectsTitle'}
+          >Projects</a>
+          <a
+            className = 'navTitle'
+            onClick = {handleResumeClick}
+            id = {display === 'resume' ? 'selectedResumeTitle' : 'resumeTitle'}
+          >Resume</a>
+        
+          <a id = 'blog'
+            href = "https://medium.com/@colinpace1987">Blog</a>
+        </div>
+
       </div>
+  
       
       { display === 'profile' ? 
         <Profile/> :

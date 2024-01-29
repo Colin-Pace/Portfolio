@@ -11,20 +11,23 @@ body {
   margin: auto;
 }
 
+#top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
 #nameTitle {
-  text-align: center;
-  font-size: 60px;
+  font-size: 40px;
+  color: #cc5500;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 #blog {
-  display: block;
-  text-align: center;
-  font-size: 30px;
-  margin-top: -30px;
-  margin-bottom: 30px;
-  color: rgb(136, 136, 136);
+  font-size: 25px;
+  color: #cc5500;
   text-decoration: none;
 }
 
@@ -37,13 +40,15 @@ a {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  margin-bottom: 70px;
 }
 
 .navTitle {
-  color: #6495ED;
-  font-size: 35px;
+  font-size: 25px;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+#profileTitle, #selectedProfileTitle {
+  margin-left: 50px;
 }
 
 #selectedProfileTitle, #selectedProjectsTitle, #selectedResumeTitle {
@@ -51,8 +56,12 @@ a {
 }
 
 #projectsTitle, #selectedProjectsTitle {
-  margin-left: 45px;
-  margin-right: 45px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#resumeTitle, #selectedResumeTitle {
+  margin-right: 20px;
 }
 
 #youTubeIcon {
@@ -78,7 +87,7 @@ a {
 #footerTitle {
   font-size: 25px;
   font-family: Arial, Helvetica, sans-serif;
-  color: rgb(148, 148, 148);
+  color: #cc5500;
 }
 
 @media (max-width: 480px) {
