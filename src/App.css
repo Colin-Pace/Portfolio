@@ -26,7 +26,7 @@ body {
 }
 
 #blog {
-  font-size: 25px;
+  font-size: 20px;
   /* color: #cc5500; */
   text-decoration: none;
 }
@@ -47,7 +47,7 @@ a {
 }
 
 .navTitle {
-  font-size: 25px;
+  font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -68,9 +68,20 @@ a {
   margin-right: 20px;
 }
 
-#youTubeIcon {
-  margin-right: 15px;
+#youTube {
+  font-size: 20px;
+  /* color: #cc5500; */
+  text-decoration: none;
+  margin-left: 20px;
 }
+
+#youTube:visited {
+  color: black;
+}
+
+/* #youTubeIcon {
+  margin-right: 15px;
+} */
 
 .contactIcon {
   height: 35px;

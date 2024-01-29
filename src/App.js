@@ -46,6 +46,12 @@ function App() {
             href = "https://medium.com/@colinpace1987"
             target="_blank"
           >Blog</a>
+
+          <a
+            id = "youTube"
+            href = 'https://www.youtube.com/@colinpace1987'
+            target = "_blank"
+          >YouTube</a>
         </div>
 
       </div>
@@ -61,13 +67,13 @@ function App() {
       <div id = 'footer'>
         <p id = 'footerTitle'>Contact me:</p>
         <div id = 'contacts'>
-          <a href = 'https://www.youtube.com/@colinpace1987'>
+          {/* <a href = 'https://www.youtube.com/@colinpace1987'>
             <img
               id = 'youTubeIcon'
               className = 'contactIcon' 
               src = {require('./youTube.png')}
             />
-          </a>
+          </a> */}
           <a href = 'www.linkedin.com/in/colin-pace-6b7ba7241'>
             <img 
               className = 'contactIcon' 
