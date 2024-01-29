@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.1604429a.css",
-    "main.js": "/Portfolio/static/js/main.960bba9c.js",
+    "main.css": "/Portfolio/static/css/main.9563cf75.css",
+    "main.js": "/Portfolio/static/js/main.4ba1739a.js",
     "static/media/nyt.png": "/Portfolio/static/media/nyt.104729890bcd4203ac23.png",
     "static/media/twitter.png": "/Portfolio/static/media/twitter.1267bea3fea27fdbd6bc.png",
     "static/media/notes.png": "/Portfolio/static/media/notes.bc33ef0a3fb226172cfc.png",
     "static/media/aap.png": "/Portfolio/static/media/aap.a823599a5c1f9c9493b1.png",
     "static/media/dijkstra.png": "/Portfolio/static/media/dijkstra.3fbc3929a720666ba841.png",
     "index.html": "/Portfolio/index.html",
-    "main.1604429a.css.map": "/Portfolio/static/css/main.1604429a.css.map",
-    "main.960bba9c.js.map": "/Portfolio/static/js/main.960bba9c.js.map"
+    "main.9563cf75.css.map": "/Portfolio/static/css/main.9563cf75.css.map",
+    "main.4ba1739a.js.map": "/Portfolio/static/js/main.4ba1739a.js.map"
   },
   "entrypoints": [
-    "static/css/main.1604429a.css",
-    "static/js/main.960bba9c.js"
+    "static/css/main.9563cf75.css",
+    "static/js/main.4ba1739a.js"
   ]
 }
