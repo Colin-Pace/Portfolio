@@ -79,10 +79,6 @@ a {
   color: black;
 }
 
-/* #youTubeIcon {
-  margin-right: 15px;
-} */
-
 .contactIcon {
   height: 35px;
   width: 35px;
@@ -130,6 +126,12 @@ a {
 
   #youTube {
     margin-left: 10px;
+    text-decoration: none;
+    color: black;
+  }
+
+  #youTube:visited {
+    color: black;
   }
 
   #selectedProfileTitle, #selectedProjectsTitle, #selectedResumeTitle, #profileTitle, #projectsTitle, #resumeTitle {
