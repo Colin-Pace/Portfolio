@@ -1,5 +1,5 @@
-import './App.css';
 import {useState} from 'react';
+import './App.css';
 import Profile from './Profile';
 import Projects from './Projects';
 import Resume from './Resume';
@@ -48,7 +48,7 @@ function App() {
           >Blog</a>
 
           <a
-            id = "youTube"
+            id = 'youTube'
             href = 'https://www.youtube.com/@colinpace1987'
             target = "_blank"
           >YouTube</a>

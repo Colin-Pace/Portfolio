@@ -72,6 +72,32 @@
   }
 
   #resumeLeft {
+    width: 80%;
+  }
+
+  #experience {
+    margin-top: -50px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  #education {
+    margin-top: -50px;
+  }
+
+  .sideTitle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 0px;
+    text-decoration: underline;
+  }
+  
+  .school, .title, .moreInfoRight {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+  }
+
+  #resumeRight {
+    margin-top: 50px;
     width: 60%;
   }
 }

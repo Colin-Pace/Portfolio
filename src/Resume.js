@@ -13,7 +13,7 @@ function Resume() {
             <p className = 'title'>Research Engineering Scientist Associate I - Applied Research Laboratories</p>
           </div>
 
-          <div className = 'edStint'>
+          <div id="education" className = 'edStint'>
             <p className = 'sideTitle'>Education</p>
             <p className = 'school'>Certificate in Project Management - Google</p>
           </div>
@@ -43,7 +43,7 @@ function Resume() {
           <p className = 'moreInfoRight'>Graduate Record Examinations (GRE) 96th percentile nationally in both verbal reasoning and analytical writing</p>
         </div>
       </div> 
-    </div>
+    </div> 
   );
 }
 

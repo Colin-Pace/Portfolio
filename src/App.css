@@ -107,26 +107,29 @@ a {
 
 @media (max-width: 580px) {
   body {
-    padding: 20px;
+    margin: 5%;
   }
-
+  
   #top {
-    margin-top: -100px;
+    flex-direction: column;
+    align-items: start;
   }
 
   #nameTitle {
-    font-size: 40px;
+    font-size: 30px;
+    width: 100%;
   }
 
-  #navBar {
-    flex-direction: column;
-    margin-left: 130px;
-    margin-top: 130px;
+  .navTitle, #blog, #youTube {
+    font-size: 16px;
   }
 
-  #selectedProjectsTitle, #projectsTitle {
-    margin-top: 20px;
-    margin-bottom: 20px;
+  #profileTitle, #selectedProfileTitle {
+    margin-left: 0px;
+  }
+
+  #youTube {
+    margin-left: 10px;
   }
 
   #selectedProfileTitle, #selectedProjectsTitle, #selectedResumeTitle, #profileTitle, #projectsTitle, #resumeTitle {
@@ -134,7 +137,12 @@ a {
     margin-right: 0;
   }
 
-  #blog {
-    margin-top: 20px;
+  #selectedProjectsTitle, #projectsTitle {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  #selectedResumeTitle, #resumeTitle {
+    margin-right: 10px;
   }
 }

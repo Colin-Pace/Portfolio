@@ -50,3 +50,9 @@ a {
 .imageLinks a:visited {
   color: black;
 }
+
+@media (max-width: 580px) {
+  .imageText {
+    font-size: 16px;
+  }
+}
