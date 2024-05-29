@@ -22,6 +22,25 @@ function Projects() {
           target="_blank" 
         >GitHub</a>
       </div>
+
+      <div className = 'projectImageContainer'>
+        <img 
+          className = 'projectImage'
+          src = {require('./outerSpace.png')}
+        />
+      </div>  
+      <h3 className = 'imageTitle'>Outer Space Invaders</h3>    
+      <p className = 'imageText'>Also designed for desktops, Outer Space Invaders tests a player's ability to launch photon torpedos toward the invading Borg ships. The ships do not launch back, but if they touch the plalyer or the bottom of the board, then the game ends. The game ends also if the player destroys all the borg ships. A front-end game with object-oriented design, Outer Space Invaders challenges a player's intuition and hand-eye coordination.</p>
+      <div className = 'imageLinks'>
+        <a 
+          href="https://colin-pace.github.io/Outer-Space-Invaders/"
+          target="_blank"
+        >Live app</a><br/><br/>
+        <a 
+          href="https://github.com/Colin-Pace/Outer-Space-Invaders"
+          target="_blank" 
+        >GitHub</a>
+      </div>
        
       <div className = 'projectImageContainer'>
         <img 
