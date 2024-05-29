@@ -3,7 +3,26 @@ import './Projects.css';
 
 function Projects() {
   return (
-    <div> 
+    <div>
+      <div className = 'projectImageContainer'>
+        <img 
+          className = 'projectImage'
+          src = {require('./gem.png')}
+        />
+      </div>  
+      <h3 className = 'imageTitle'>Gem Search</h3>    
+      <p className = 'imageText'>Gem Search is a front end game that has a player use the arrow keys to move a green image around the screen to collect the blue image and to do so without touching the orange images. There is a levels option for easy and hard. Also there is a points tabby that keeps track of one's points. Gem Search uses object oriented design, with classes for the board, player, gem, opponents (called "traffic" after the frogger game).</p>
+      <div className = 'imageLinks'>
+        <a 
+          href="https://colin-pace.github.io/Gem-Search/"
+          target="_blank"
+        >Live app</a><br/><br/>
+        <a 
+          href="https://github.com/Colin-Pace/Gem-Search"
+          target="_blank" 
+        >GitHub</a>
+      </div>
+       
       <div className = 'projectImageContainer'>
         <img 
           className = 'projectImage'
@@ -15,9 +34,11 @@ function Projects() {
       <div className = 'imageLinks'>
         <a 
           href="https://colin-pace.github.io/Notes/"
+          target="_blank"
         >Live app</a><br/><br/>
         <a 
           href="https://github.com/Colin-Pace/Notes" 
+          target="_blank"
         >GitHub</a>
       </div>
       
@@ -32,9 +53,11 @@ function Projects() {
       <div className = 'imageLinks'>
         <a 
           href="https://colin-pace.github.io/TwitterClone/"
+          target="_blank"
         >Live app</a><br/><br/>
         <a 
           href="https://github.com/Colin-Pace/TwitterClone" 
+          target="_blank"
         >GitHub</a>
       </div>
 
@@ -49,9 +72,11 @@ function Projects() {
       <div className = 'imageLinks'>
         <a 
           href="https://colin-pace.github.io/NYT-Best-Sellers/"
+          target="_blank"
         >Live app</a><br/><br/>
         <a 
-          href="https://github.com/Colin-Pace/NYT-Best-Sellers" 
+          href="https://github.com/Colin-Pace/NYT-Best-Sellers"
+          target="_blank" 
         >GitHub</a>
       </div>
 
@@ -66,9 +91,11 @@ function Projects() {
       <div className = 'imageLinks'>
         <a 
           href="https://colin-pace.github.io/Dijkstra-Illustrated/"
+          target="_blank"
         >Live app</a><br/><br/>
         <a 
           href="https://github.com/Colin-Pace/Dijkstra-Illustrated" 
+          target="_blank"
         >GitHub</a>
       </div>
 
@@ -83,9 +110,11 @@ function Projects() {
       <div className = 'imageLinks'>
         <a 
           href="https://colin-pace.github.io/AlgorithmsAndPrograms/"
+          target="_blank"
         >Live app</a><br/><br/>
         <a 
           href="https://github.com/Colin-Pace/AlgorithmsAndPrograms" 
+          target="_blank"
         >GitHub</a>
       </div>
 
