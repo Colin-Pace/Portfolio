@@ -56,8 +56,12 @@ a {
   margin-left: 50px;
 }
 
-#selectedProfileTitle, #selectedProjectsTitle, #selectedResumeTitle {
+#selectedProfileTitle, #selectedTestsTitle, #selectedProjectsTitle, #selectedResumeTitle {
   text-decoration: underline;
+}
+
+#selectedTestsTitle, #testsTitle {
+  margin-left: 20px;
 }
 
 #projectsTitle, #selectedProjectsTitle {

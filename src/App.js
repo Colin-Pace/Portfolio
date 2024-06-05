@@ -3,12 +3,17 @@ import './App.css';
 import Profile from './Profile';
 import Projects from './Projects';
 import Resume from './Resume';
+import Tests from './Tests';
 
 function App() {
   const [display, setDisplay] = useState('profile');
 
   const handleProfileClick = function() {
     setDisplay('profile');
+  }
+
+  const handleTestsClick = function() {
+    setDisplay('tests');
   }
 
   const handleProjectsClick = function() {
@@ -31,6 +36,11 @@ function App() {
             onClick = {handleProfileClick}
             id = {display === 'profile' ? 'selectedProfileTitle' : 'profileTitle'}
           >Bio</a>
+          <a
+            className = 'navTitle'
+            onClick = {handleTestsClick}
+            id = {display === 'tests' ? 'selectedTestsTitle' : 'testsTitle'}
+          >Tests</a>
           <a
             className = 'navTitle'
             onClick = {handleProjectsClick}
@@ -59,9 +69,11 @@ function App() {
       
       { display === 'profile' ? 
         <Profile/> :
-        display === 'projects' ?
-        <Projects/> :
-        <Resume/>
+          display === 'tests' ?
+          <Tests/> :
+            display === 'projects' ?
+            <Projects/> :
+            <Resume/>
       }
 
       <div id = 'footer'>
