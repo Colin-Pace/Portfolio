@@ -149,6 +149,11 @@ a {
     margin-right: 10px;
   }
 
+  #testsTitle, #selectedTestsTitle {
+    margin-left: 10px;
+    margin-right: 0px;
+  }
+
   #selectedResumeTitle, #resumeTitle {
     margin-right: 10px;
   }
