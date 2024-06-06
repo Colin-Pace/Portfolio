@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.28406f6d.css",
-    "main.js": "/Portfolio/static/js/main.46285159.js",
+    "main.css": "/Portfolio/static/css/main.bc2691c7.css",
+    "main.js": "/Portfolio/static/js/main.da316fab.js",
     "static/media/taasTwo.jpeg": "/Portfolio/static/media/taasTwo.2b25a7f26cb483bd91ce.jpeg",
     "static/media/iowa.jpeg": "/Portfolio/static/media/iowa.dd68b6c901e041f35efa.jpeg",
     "static/media/risd.jpeg": "/Portfolio/static/media/risd.ca9d5024c3eee32e44ab.jpeg",
@@ -17,11 +17,11 @@
     "static/media/aap.png": "/Portfolio/static/media/aap.a823599a5c1f9c9493b1.png",
     "static/media/dijkstra.png": "/Portfolio/static/media/dijkstra.3fbc3929a720666ba841.png",
     "index.html": "/Portfolio/index.html",
-    "main.28406f6d.css.map": "/Portfolio/static/css/main.28406f6d.css.map",
-    "main.46285159.js.map": "/Portfolio/static/js/main.46285159.js.map"
+    "main.bc2691c7.css.map": "/Portfolio/static/css/main.bc2691c7.css.map",
+    "main.da316fab.js.map": "/Portfolio/static/js/main.da316fab.js.map"
   },
   "entrypoints": [
-    "static/css/main.28406f6d.css",
-    "static/js/main.46285159.js"
+    "static/css/main.bc2691c7.css",
+    "static/js/main.da316fab.js"
   ]
 }
