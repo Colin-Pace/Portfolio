@@ -7,7 +7,7 @@ body {
 }
 
 .App {
-  max-width: 700px;
+  max-width: 750px;
   margin: auto;
 }
 
@@ -56,11 +56,11 @@ a {
   margin-left: 50px;
 }
 
-#selectedProfileTitle, #selectedTestsTitle, #selectedProjectsTitle, #selectedResumeTitle {
+#selectedProfileTitle, #selectedEducationTitle, #selectedTestsTitle, #selectedProjectsTitle, #selectedResumeTitle {
   text-decoration: underline;
 }
 
-#selectedTestsTitle, #testsTitle {
+#educationTitle, #selectedEducationTitle, #selectedTestsTitle, #testsTitle {
   margin-left: 20px;
 }
 
@@ -149,7 +149,7 @@ a {
     margin-right: 10px;
   }
 
-  #testsTitle, #selectedTestsTitle {
+  #educationTitle, #selectedEducationTitle, #testsTitle, #selectedTestsTitle {
     margin-left: 10px;
     margin-right: 0px;
   }

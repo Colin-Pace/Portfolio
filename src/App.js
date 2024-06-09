@@ -4,6 +4,7 @@ import Profile from './Profile';
 import Projects from './Projects';
 import Resume from './Resume';
 import Tests from './Tests';
+import Education from './Education';
 
 function App() {
   const [display, setDisplay] = useState('profile');
@@ -14,6 +15,10 @@ function App() {
 
   const handleTestsClick = function() {
     setDisplay('tests');
+  }
+
+  const handleEducationClick = function() {
+    setDisplay('education');
   }
 
   const handleProjectsClick = function() {
@@ -43,14 +48,19 @@ function App() {
           >Tests</a>
           <a
             className = 'navTitle'
+            onClick = {handleEducationClick}
+            id = {display === 'education' ? 'selectedEducationTitle' : 'educationTitle'}
+          >Education</a>
+          <a
+            className = 'navTitle'
             onClick = {handleProjectsClick}
             id = {display === 'projects' ? 'selectedProjectsTitle' : 'projectsTitle'}
-          >Projects</a>
+          >Code</a>
           <a
             className = 'navTitle'
             onClick = {handleResumeClick}
             id = {display === 'resume' ? 'selectedResumeTitle' : 'resumeTitle'}
-          >Resume</a>
+          >CV</a>
         
           <a id = 'blog'
             href = "https://medium.com/@colinpace1987"
@@ -71,10 +81,12 @@ function App() {
         <Profile/> :
           display === 'tests' ?
           <Tests/> :
-            display === 'projects' ?
-            <Projects/> :
-            <Resume/>
-      }
+            display === 'education' ?
+            <Education/> :
+              display === 'projects' ?
+              <Projects/> :
+              <Resume/>
+        }
 
       <div id = 'footer'>
         <p id = 'footerTitle'>Contact me:</p>
