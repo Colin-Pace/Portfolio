@@ -5,7 +5,7 @@ function Tests() {
   return (
     <div id = "testSection">
       <h1>Percentile Rankings on National and State Tests</h1>
-      <p>Throughout my early and young-adult life, I placed well on standardized tests. Here are six tests in which I placed in the 95th percentile or higher, with at least 5 placements in the top 1st percentile on sections of tests (and possibly as many as 10 placements in it). The format of the list is the test name, my percentile rankings on it, and my age during the test.
+      <p>Throughout my early and young-adult life, I placed well on standardized tests. Here are six tests in which I placed in the 95th percentile or higher, with 5-10 placements in the 99th percentile and then 3-8 placements in the 95th-98th percentiles. The format of the list is the test name, my percentile rankings on it, and my age during the test.
         <ol>
           <li><a href = "#testOneTitle">The Stanford Early School Achievement Test, 98th percentile (composite), age 5</a></li>
           <li><a href = "#testTwoTitle">The Metropolitan Readiness Tests, 95th percentile (composite), age 6</a></li>
