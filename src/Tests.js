@@ -69,6 +69,14 @@ function Tests() {
           className = '' 
           src = {require('./gre.jpeg')}
         />
+
+      <h2 id = "testSevenTitle">Lexiq 2024</h2>
+        <p>In 2024, I took my first IQ test. Lexiq is a high-range IQ test, which I took because of my multiple previous placements in the top first percentile on aptitude tests. I did well on Lexiq, with a score of <b>IQ 172</b>.</p>
+        <img 
+          id = 'lexiq' 
+          className = '' 
+          src = {require('./lexiq.jpeg')}
+        />
     </div> 
   );
 }
