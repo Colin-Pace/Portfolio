@@ -4,7 +4,7 @@ import './Tests.css';
 function Tests() {
   return (
     <div id = "testSection">
-      <h1>Percentile Rankings on National and State Tests</h1>
+      <h1>Aptitude and IQ Tests</h1>
       <p>Throughout my early and young-adult life, I placed well on standardized tests. Here are six tests in which I placed in the 95th percentile or higher. Most of the tests are marked by their sections, and on the sections, I have 5-10 placements in the 99th percentile and then 3-8 placements in the 95th-98th percentiles. The format of the list is the test name, my percentile rankings on it, and my age during the test.
         <ol>
           <li><a href = "#testOneTitle">The Stanford Early School Achievement Test, 98th percentile (composite), age 5</a></li>
@@ -13,6 +13,7 @@ function Tests() {
           <li><a href = "#testFourTitle">The Texas Assessment of Academic Skills, 99th* (reading) and 97th* (mathematics) percentiles, age 9</a></li>
           <li><a href = "#testFiveTitle">The Texas Assessment of Academic Skills, 99th* (reading), 98th* (mathematics), and 99th* (science) percentiles, age 14</a></li>
           <li><a href = "#testSixTitle">The Graduate Record Examinations, 96th+ (verbal reasoning) and 96th+ (analytical writing) percentile, age 22</a></li>
+          <li><a href = "#testSevenTitle">Lexiq, IQ 172, age 37</a></li>
         </ol>
       Key: * denotes ChatGPT's estimation percentile based on the test result form, and + denotes a likely higher percentile by age range.
       </p>
