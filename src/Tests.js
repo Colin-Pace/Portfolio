@@ -5,7 +5,7 @@ function Tests() {
   return (
     <div id = "testSection">
       <h1>IQ and Aptitude Tests</h1>
-      <p>Throughout my life, I placed well on tests. Here is one IQ test and six aptitude tests. In the aptitude tests, I placed in the 95th percentile or higher. Most of the tests are marked by their sections, and on the sections, I have 5-10 placements in the 99th percentile and then 3-8 placements in the 95th-98th percentiles. The format of the list is the test name, my percentile rankings on it, and my age during the test.
+      <p>Throughout my life, I have placed well on tests. Here is one IQ test and six aptitude tests. In the aptitude tests, I placed in the 95th percentile or higher. Most of the tests are marked by their sections, and on the sections, I have 5-10 placements in the 99th percentile and then 3-8 placements in the 95th-98th percentiles. The format of the list is the test name, my percentile rankings on it, and my age during the test.
         <ol>
           <li><a href = "#testSevenTitle">Lexiq, IQ 172, age 37</a></li>
           <li><a href = "#testSixTitle">The Graduate Record Examinations, 96th+ (verbal reasoning) and 96th+ (analytical writing) percentile, age 22</a></li>
@@ -19,7 +19,7 @@ function Tests() {
       </p>
 
         <h2 id = "testSevenTitle">Lexiq 2024</h2>
-          <p>In 2024, I took my first IQ test. Lexiq is a high-range IQ test, which I took because of my multiple previous placements in the top first percentile on aptitude tests. I did well on Lexiq, with a score of <b>IQ 172</b>.</p>
+          <p>In 2024, I took my first IQ test. Lexiq is a high-range IQ test, which I took because of my previous multiple placements in the top first percentile on aptitude tests. I did well on Lexiq, with a score of <b>IQ 172</b>.</p>
           <img 
             id = 'lexiq' 
             className = '' 
