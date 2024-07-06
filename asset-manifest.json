@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.f44ebc50.css",
-    "main.js": "/Portfolio/static/js/main.d6b28016.js",
+    "main.css": "/Portfolio/static/css/main.58f6d485.css",
+    "main.js": "/Portfolio/static/js/main.12498123.js",
     "static/media/taasTwo.jpeg": "/Portfolio/static/media/taasTwo.2b25a7f26cb483bd91ce.jpeg",
     "static/media/iowa.jpeg": "/Portfolio/static/media/iowa.dd68b6c901e041f35efa.jpeg",
     "static/media/risd.jpeg": "/Portfolio/static/media/risd.ca9d5024c3eee32e44ab.jpeg",
@@ -13,16 +13,17 @@
     "static/media/nyt.png": "/Portfolio/static/media/nyt.104729890bcd4203ac23.png",
     "static/media/twitter.png": "/Portfolio/static/media/twitter.1267bea3fea27fdbd6bc.png",
     "static/media/gem.png": "/Portfolio/static/media/gem.443c720c5f8475271dab.png",
+    "static/media/portrait.jpg": "/Portfolio/static/media/portrait.9e75c1dde9b34051b308.jpg",
     "static/media/notes.png": "/Portfolio/static/media/notes.bc33ef0a3fb226172cfc.png",
     "static/media/outerSpace.png": "/Portfolio/static/media/outerSpace.4fd6b72b6a533768470d.png",
     "static/media/aap.png": "/Portfolio/static/media/aap.a823599a5c1f9c9493b1.png",
     "static/media/dijkstra.png": "/Portfolio/static/media/dijkstra.3fbc3929a720666ba841.png",
     "index.html": "/Portfolio/index.html",
-    "main.f44ebc50.css.map": "/Portfolio/static/css/main.f44ebc50.css.map",
-    "main.d6b28016.js.map": "/Portfolio/static/js/main.d6b28016.js.map"
+    "main.58f6d485.css.map": "/Portfolio/static/css/main.58f6d485.css.map",
+    "main.12498123.js.map": "/Portfolio/static/js/main.12498123.js.map"
   },
   "entrypoints": [
-    "static/css/main.f44ebc50.css",
-    "static/js/main.d6b28016.js"
+    "static/css/main.58f6d485.css",
+    "static/js/main.12498123.js"
   ]
 }
