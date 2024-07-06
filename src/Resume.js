@@ -38,9 +38,10 @@ function Resume() {
           <p className = 'moreInfoRight'>Google Docs, Sheets, Slides</p>
           <p className = 'moreInfoRight'>Hindi (conversational)</p>
           <p id = 'accomplishments' className = 'sideTitle'>Accomplishments</p>
+          <p className = 'moreInfoRight'> IQ 172 on Lexiq (99.9999th percentile)</p>
+          <p className = 'moreInfoRight'>5-10 placements in the 99th percentile on aptitude tests and 3-8 placements in the 95th-98th percentiles</p>
           <p className = 'moreInfoRight'>National Science Foundation Graduate Research Fellowship</p>
           <p className = 'moreInfoRight'>Department of Education Foreign Language and Area Studies Fellowships</p>
-          <p className = 'moreInfoRight'>Graduate Record Examinations (GRE) 96th percentile nationally in both verbal reasoning and analytical writing</p>
         </div>
       </div> 
     </div> 
