@@ -37,7 +37,7 @@ ol li {
 }
 
 @media (max-width: 580px) {
-  p, a {
+  p, a, li {
     font-size: 16px;
   }
 }
