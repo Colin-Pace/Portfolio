@@ -98,13 +98,19 @@ function App() {
               src = {require('./youTube.png')}
             />
           </a> */}
-          <a href = 'www.linkedin.com/in/colin-pace-6b7ba7241'>
+          <a 
+            href = 'https://www.linkedin.com/in/colin-pace-6b7ba7241'
+            target = '_blank'
+          >
             <img 
               className = 'contactIcon' 
               src = {require('./linkedIn.png')}
             />
           </a>
-          <a href = 'https://github.com/Colin-Pace?tab=repositories'>
+          <a 
+            href = 'https://github.com/Colin-Pace?tab=repositories'
+            target = '_blank'  
+          >
             <img 
               id = 'githubIcon' 
               className = 'contactIcon' 
