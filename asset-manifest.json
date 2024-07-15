@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.d1f52b10.css",
+    "main.css": "/Portfolio/static/css/main.71b7eb5b.css",
     "main.js": "/Portfolio/static/js/main.73be5002.js",
     "static/media/taasTwo.jpeg": "/Portfolio/static/media/taasTwo.2b25a7f26cb483bd91ce.jpeg",
     "static/media/iowa.jpeg": "/Portfolio/static/media/iowa.dd68b6c901e041f35efa.jpeg",
@@ -19,11 +19,11 @@
     "static/media/aap.png": "/Portfolio/static/media/aap.a823599a5c1f9c9493b1.png",
     "static/media/dijkstra.png": "/Portfolio/static/media/dijkstra.3fbc3929a720666ba841.png",
     "index.html": "/Portfolio/index.html",
-    "main.d1f52b10.css.map": "/Portfolio/static/css/main.d1f52b10.css.map",
+    "main.71b7eb5b.css.map": "/Portfolio/static/css/main.71b7eb5b.css.map",
     "main.73be5002.js.map": "/Portfolio/static/js/main.73be5002.js.map"
   },
   "entrypoints": [
-    "static/css/main.d1f52b10.css",
+    "static/css/main.71b7eb5b.css",
     "static/js/main.73be5002.js"
   ]
 }
