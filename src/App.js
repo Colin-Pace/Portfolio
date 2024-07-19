@@ -86,6 +86,26 @@ function App() {
               src = {require('./youTube.png')}
             />
           </a> */}
+          <a
+            href = 'https://www.instagram.com/colinpace1987/?hl=en'
+            target = '_blank'
+          >
+            <img 
+              id = 'igIcon' 
+              className = 'contactIcon' 
+              src = {require('./ig_icon.png')}
+            />
+          </a>
+          <a
+            href = 'https://x.com/i/flow/login?redirect_after_login=%2FColin_Pace_1987'
+            target = '_blank'
+          >
+            <img
+              id = 'xIcon'  
+              className = 'contactIcon' 
+              src = {require('./x_icon.png')}
+            />
+          </a>
           <a 
             href = 'https://www.linkedin.com/in/colin-pace-6b7ba7241'
             target = '_blank'
