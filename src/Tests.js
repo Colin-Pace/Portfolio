@@ -22,7 +22,7 @@ function Tests() {
           <ul>
             <li><b>IQ 172 (99.9999th percentile)</b></li>
           </ul>
-          <p>In 2024, I took my first IQ test. Lexiq is a high-range IQ test, which I took because of my previous multiple placements in the top first percentile on aptitude tests. I did well on Lexiq. According to the World Genius Directory, the rarity of an IQ 172 is 1 in 1 million. For those interested in IQ tests, AI (both ChatGPT and Gemini) agree that the g loading of verbal IQ tests is 0.7 - 0.8., one of the two strongest correlations between one the categories of IQ tests and g.</p>
+          <p>In 2024, I took my first IQ test. Lexiq is a high-range IQ test, which I took because of my previous multiple placements in the top first percentile on aptitude tests. I did well on Lexiq. According to the World Genius Directory, the rarity of an IQ 172 is 1 in 1 million. For those interested in IQ tests, AI (both ChatGPT and Gemini) suggests that the g loading of verbal IQ tests is 0.7 - 0.8., one of the two strongest correlations between one the categories of IQ tests and g.</p>
           <img 
             id = 'lexiq' 
             className = '' 
