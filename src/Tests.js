@@ -118,6 +118,10 @@ function Tests() {
             href = "https://psiq.org/home.html"
             target = "_blank">World Genius Directory</a>: A list of geniuses from around the world
           </li>
+          <li><a 
+            href = "https://cprobusinessva.wixsite.com/lits"
+            target = "_blank">The Literarians</a>: A literary society for gifted people
+          </li>
         </ol>
     </div> 
   );

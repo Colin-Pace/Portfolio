@@ -8,6 +8,8 @@ function Resume() {
         <div id = 'resumeLeft'>
           <div id = 'experience'>
             <p className = 'sideTitle'>Experience</p>
+            <p className = 'title'>Executive Director - Casa de Luz Foundation</p>
+            <p className = 'title'>Hindi Teacher - Preply</p>
             <p className = 'title'>Project Coordinator - ADU Geeks</p>
             <p className = 'title'>Estimator - Fabrick</p>
             <p className = 'title'>Research Engineering Scientist Associate I - Applied Research Laboratories</p>
@@ -38,7 +40,7 @@ function Resume() {
           <p className = 'moreInfoRight'>Google Docs, Sheets, Slides</p>
           <p className = 'moreInfoRight'>Hindi (conversational)</p>
           <p id = 'accomplishments' className = 'sideTitle'>Accomplishments</p>
-          <p className = 'moreInfoRight'> IQ 172 on Lexiq (99.9999th percentile)</p>
+          <p className = 'moreInfoRight'> IQ 172 (99.9999th percentile) on Lexiq</p>
           <p className = 'moreInfoRight'>5-10 placements in the 99th percentile on aptitude tests and 3-8 placements in the 95th-98th percentiles</p>
           <p className = 'moreInfoRight'>National Science Foundation Graduate Research Fellowship</p>
           <p className = 'moreInfoRight'>Department of Education Foreign Language and Area Studies Fellowships</p>
