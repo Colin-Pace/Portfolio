@@ -8,7 +8,7 @@ function Resume() {
         <div id = 'resumeLeft'>
           <div id = 'experience'>
             <p className = 'sideTitle'>Experience</p>
-            <p className = 'title'>Executive Director - Casa de Luz Foundation</p>
+            <p className = 'title'>Web Developer and Project Coordinator - Casa de Luz Foundation</p>
             <p className = 'title'>Hindi Teacher - Preply</p>
             <p className = 'title'>Project Coordinator - ADU Geeks</p>
             <p className = 'title'>Estimator - Fabrick</p>
