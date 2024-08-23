@@ -5,7 +5,7 @@ function Tests() {
   return (
     <div id = "testSection">
       <h1>IQ and Aptitude Tests</h1>
-      <p>Throughout my life, I have placed well on tests. Here is one IQ test and six aptitude tests. In the aptitude tests, I placed in the 95th percentile or higher. Most of the tests are marked by their sections, and on the sections, I have 5-10 placements in the 99th percentile and then 3-8 placements in the 95th-98th percentiles. The format of the list is the test name, my percentile rankings on it, and my age during the test. After the tests is a <a href = "#societies">list</a> of the societies I've joined.
+      <p>Throughout my life, I have placed well on tests. Here is an IQ, an aptitude, and at least 12 achievement tests. The tests are mostly subject tests, rather than composite tests. On all types of tests, I placed in the 95th percentile or higher. I have at least 6 placements in the 99th percentile and 8 placements in the 95th-98th percentiles. The format of the list is the test name, my percentile rankings on it, and my age during the test. After the tests is a <a href = "#societies">list</a> of the societies I've joined.
         <ol>
           <li><a href = "#testSevenTitle">Lexiq, IQ 172 (99.9999th percentile), age 37</a></li>
           <li><a href = "#testSixTitle">The Graduate Record Examinations, 96th+ (verbal reasoning) and 96th+ (analytical writing) percentile, age 22</a></li>
@@ -22,7 +22,7 @@ function Tests() {
           <ul>
             <li><b>IQ 172 (99.9999th percentile)</b></li>
           </ul>
-          <p>In 2024, I took my first IQ test. Lexiq is a high-range IQ test, which I took because of my previous multiple placements in the top first percentile on aptitude tests. I did well on Lexiq. According to the World Genius Directory, the rarity of an IQ 172 is 1 in 1 million. For those interested in IQ tests, AI (both ChatGPT and Gemini) suggests that the g loading of verbal IQ tests is 0.7 - 0.8., one of the two strongest correlations between one the categories of IQ tests and g.</p>
+          <p>In 2024, I took my first IQ test. Lexiq is a high-range IQ test, which I took because of my previous multiple placements in the top first percentile on achievement tests. I did well on Lexiq, which tests verbal intelligence. According to the World Genius Directory, the rarity of an IQ 172 is 1 in 1 million. For those interested in IQ tests, the general intelligence factor (G) loading correlation with Lexiq is approximately .72.</p>
           <img 
             id = 'lexiq' 
             className = '' 
@@ -34,7 +34,7 @@ function Tests() {
             <li><b>96th+ percentile in verbal reasoning</b></li>
             <li><b>96th+ percentile in analytical writing</b></li>
           </ul>
-          <p>The GRE was an interesting test for me for a number of reasons. It's the last aptitude test that I took. Also, I didn't study or try on the mathematics section, which is why I received a much lower placement. Perhaps most noteworthy after the two 96th percentile placements in verbal reasoning and analytical writing is the age at which I tested: 22. According to Kaplan, today, the average test taker is 24 years old, with 50% of test takers older than 22. If this was true when I took the test, then for my age range, I probably placed higher, perhaps even again in the top percentile for both categories. The testing service, the Educational Testing Service (ETS), doesn't give statistics, so the status of the percentiles remains unclear.</p>
+          <p>The GRE was an interesting test for me for a number of reasons. It's the first aptitude test that I took. Also, I didn't study or try on the mathematics section, which is why I received a much lower placement. Perhaps most noteworthy after the two 96th percentile placements in verbal reasoning and analytical writing is the age at which I tested: 22. According to Kaplan, today, the average test taker is 24 years old, with 50% of test takers older than 22. If this was true when I took the test, then for my age range, I probably placed higher, perhaps even again in the top percentile for both categories. The testing service, the Educational Testing Service (ETS), doesn't give statistics, so the status of the percentiles remains unclear.</p>
           <img 
             id = 'gre' 
             className = '' 
@@ -47,7 +47,7 @@ function Tests() {
             <li><b>98th* prcentile in mathematics</b></li>
             <li><b>99th* percentile in science</b></li>
           </ul>
-          <p>ChatGPT estimated all the TAAS scores displayed. I placed well on the TAAS test in reading and science. The mathematics percentile is also good.</p>
+          <p>The last achievement tests I took, the TAAS tests were good tests for me. ChatGPT estimated all the TAAS scores displayed. I placed well on the TAAS test in reading and science. The mathematics percentile is also good.</p>
           <img 
             id = 'taasTwo' 
             className = '' 
@@ -65,7 +65,7 @@ function Tests() {
             <li><b>99th* percentile in reading</b></li>
             <li><b>97th* percentile in mathematics</b></li>
           </ul>
-          <p>I'm unsure how to interpret these results. 3-94 appears to be the maximum score possible (possibly the first time I answered every qusetion correctly on an aptitude test), and ChatGPT estimates that the score places me in the 99th percentile. The 3-89 is less strong, but, again, it is still a strong score and has a strong percentile.</p>
+          <p>I'm unsure how to interpret these results. 3-94 appears to be the maximum score possible (possibly the first time I answered every qusetion correctly on an achievement test), and ChatGPT estimates that the score places me in the 99th percentile. The 3-89 is less strong, but, again, it is still a strong score and has a strong percentile.</p>
           <img 
             id = 'taasOne' 
             className = '' 
