@@ -41,7 +41,7 @@ function Resume() {
           <p className = 'moreInfoRight'>Hindi (conversational)</p>
           <p id = 'accomplishments' className = 'sideTitle'>Accomplishments</p>
           <p className = 'moreInfoRight'> IQ 172 (99.9999th percentile) on Lexiq</p>
-          <p className = 'moreInfoRight'>5-10 placements in the 99th percentile on aptitude tests and 3-8 placements in the 95th-98th percentiles</p>
+          <p className = 'moreInfoRight'>6 placements in the 99th percentile and 8 placements in the 95th-98th percentiles on IQ, aptitude, and achievement tests</p>
           <p className = 'moreInfoRight'>National Science Foundation Graduate Research Fellowship</p>
           <p className = 'moreInfoRight'>Department of Education Foreign Language and Area Studies Fellowships</p>
         </div>
