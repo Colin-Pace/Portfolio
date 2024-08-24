@@ -15,7 +15,7 @@ p {
 }
 
 @media (max-width: 580px) {
-  .profileText, .lastText {
+  p {
     font-size: 16px;
   }
 }
