@@ -47,7 +47,7 @@ function Tests() {
             <li><b>98th* prcentile in mathematics</b></li>
             <li><b>99th* percentile in science</b></li>
           </ul>
-          <p>The last achievement tests I took, the TAAS tests were good tests for me. ChatGPT estimated all the TAAS scores displayed. I placed well on the TAAS test in reading and science. The mathematics percentile is also good.</p>
+          <p>The last achievement tests I took, the TAAS tests were good tests for me. ChatGPT estimated all the TAAS percentiles displayed. I placed well on the TAAS test in reading and science. The mathematics percentile is also good.</p>
           <img 
             id = 'taasTwo' 
             className = '' 
