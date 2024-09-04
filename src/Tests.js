@@ -22,7 +22,7 @@ function Tests() {
           <ul>
             <li><b>IQ 172 (99.9999th percentile)</b></li>
           </ul>
-          <p>In 2024, I took my first IQ test. Lexiq is a high-range IQ test, which I took because of my previous multiple placements in the top first percentile on achievement tests. I did well on Lexiq, which tests verbal intelligence. According to the World Genius Directory, the rarity of an IQ 172 is 1 in 1 million. For those interested in IQ tests, the general intelligence factor (G) loading correlation with Lexiq is <a href = "https://iq-tests-for-the-high-range.com/statistics/others/soulios.html" target = "_blank">approximately .72</a>.</p>
+          <p>In 2024, I took my first IQ test. Lexiq is a high-range IQ test, which I took because of my previous multiple placements in the top first percentile on achievement tests. I did well on Lexiq. Lexiq tests verbal intelligence. According to the World Genius Directory, the rarity of an IQ 172 is 1 in 1 million. For those interested in IQ tests, the general intelligence factor (G) loading correlation with Lexiq is <a href = "https://iq-tests-for-the-high-range.com/statistics/others/soulios.html" target = "_blank">approximately .72</a>.</p>
           <img 
             id = 'lexiq' 
             className = '' 
