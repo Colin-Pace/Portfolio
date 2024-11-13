@@ -5,7 +5,7 @@ function Tests() {
   return (
     <div id = "testSection">
       <h1>IQ, Aptitude, and Achievement Tests</h1>
-      <p>Throughout my life, I have placed well on tests. Here is an IQ, an aptitude, and at least 12 achievement tests. The tests are mostly subject tests, rather than composite tests. On most all types of tests, I placed in the 95th percentile or higher. I have at least 6 placements in the 99th percentile and 8 placements in the 95th-98th percentiles. The format of the list is the test name, my percentile rankings on it, and my age during the test. After the tests is a <a href = "#societies">list</a> of the societies I've joined.
+      <p>Throughout my life, I have placed well on tests. Here is an IQ, an aptitude, and at least 12 achievement tests. The tests are mostly subject tests, rather than composite tests. On almost all types of tests, I placed in the 95th percentile or higher. I have at least 6 placements in the 99th percentile and 8 placements in the 95th-98th percentiles. The format of the list is the test name, my percentile rankings on it, and my age during the test. After the tests is a <a href = "#societies">list</a> of the societies I've joined.
         <ol>
           <li><a href = "#testSevenTitle">Lexiq, IQ 172 (99.9999th percentile), age 37</a></li>
           <li><a href = "#testSixTitle">The Graduate Record Examinations, 96th+ (verbal reasoning) and 96th+ (analytical writing) percentile, age 22</a></li>
