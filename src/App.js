@@ -41,16 +41,20 @@ function App() {
             onClick = {handleProfileClick}
             id = {display === 'profile' ? 'selectedProfileTitle' : 'profileTitle'}
           >Bio</a>
-          <a
+       
+          {/* <a
             className = 'navTitle'
             onClick = {handleTestsClick}
             id = {display === 'tests' ? 'selectedTestsTitle' : 'testsTitle'}
           >Tests</a>
+
           <a
             className = 'navTitle'
             onClick = {handleEducationClick}
             id = {display === 'education' ? 'selectedEducationTitle' : 'educationTitle'}
-          >Education</a>
+          >Education</a> */}
+
+
           <a
             className = 'navTitle'
             onClick = {handleProjectsClick}
@@ -67,11 +71,12 @@ function App() {
             target="_blank"
           >Blog</a>
 
-          <a
+          {/* <a
             id = 'youTube'
             href = 'https://www.youtube.com/@colinpace1987'
             target = "_blank"
-          >YouTube</a>
+          >YouTube</a> */}
+
         </div>
 
       </div>

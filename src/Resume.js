@@ -8,10 +8,11 @@ function Resume() {
         <div id = 'resumeLeft'>
           <div id = 'experience'>
             <p className = 'sideTitle'>Experience</p>
-            <p className = 'title'>Web Developer and Project Coordinator - Casa de Luz Foundation</p>
+            <p className = "title">Information Processing Specialist - Tata Consultancy Services</p>
+            {/* <p className = 'title'>Web Developer and Project Coordinator - Casa de Luz Foundation</p> */}
             <p className = 'title'>Hindi Teacher - Preply</p>
             <p className = 'title'>Project Coordinator - ADU Geeks</p>
-            <p className = 'title'>Estimator - Fabrick</p>
+            {/* <p className = 'title'>Estimator - Fabrick</p> */}
             <p className = 'title'>Research Engineering Scientist Associate I - Applied Research Laboratories</p>
           </div>
 
