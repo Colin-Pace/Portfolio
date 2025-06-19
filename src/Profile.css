@@ -1,0 +1,28 @@
+#portrait {
+  width: 99%;
+  height: 99%;
+}
+
+#firstParagraph {
+  margin-top: 80px;
+}
+
+.profileText {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  line-height: 200%;
+  margin-bottom: 50px;
+}
+
+.lastText {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  line-height: 200%;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 580px) {
+  .profileText, .lastText {
+    font-size: 16px;
+  }
+}

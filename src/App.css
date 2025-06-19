@@ -1,0 +1,179 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.App {
+  max-width: 750px;
+  margin: auto;
+}
+
+#top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+#nameTitle {
+  font-size: 40px;
+  color: #cc5500;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#blog {
+  font-size: 20px;
+  /* color: #cc5500; */
+  text-decoration: none;
+  color: black;
+}
+
+#blog:visited {
+  color: black;
+}
+
+a {
+  cursor: pointer;
+}
+
+#navBar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.navTitle {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#profileTitle, #selectedProfileTitle {
+  margin-left: 50px;
+}
+
+#selectedProfileTitle, #selectedEducationTitle, #selectedTestsTitle, #selectedProjectsTitle, #selectedResumeTitle {
+  text-decoration: underline;
+}
+
+#educationTitle, #selectedEducationTitle, #selectedTestsTitle, #testsTitle {
+  margin-left: 20px;
+}
+
+#projectsTitle, #selectedProjectsTitle {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#resumeTitle, #selectedResumeTitle {
+  margin-right: 20px;
+}
+
+#youTube {
+  font-size: 20px;
+  /* color: #cc5500; */
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+#youTube:visited {
+  color: black;
+}
+
+.contactIcon {
+  height: 35px;
+  width: 35px;
+}
+
+#githubIcon {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+#igIcon, #xIcon {
+  margin-right: 15px;
+}
+
+#igIcon {
+  height: 35px;
+  width: 35px;
+}
+
+#footer {
+  margin-top: 40px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+#footerTitle {
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #cc5500;
+}
+
+@media (max-width: 580px) {
+  body {
+    margin: 5%;
+  }
+  
+  #top {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  #nameTitle {
+    font-size: 30px;
+    width: 100%;
+  }
+
+  .navTitle, #blog, #youTube {
+    font-size: 16px;
+  }
+
+  #profileTitle, #selectedProfileTitle {
+    margin-left: 0px;
+  }
+
+  #youTube {
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+  }
+
+  #youTube:visited {
+    color: black;
+  }
+
+  #selectedProfileTitle, #selectedProjectsTitle, #selectedResumeTitle, #profileTitle, #projectsTitle, #resumeTitle {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  #selectedProjectsTitle, #projectsTitle {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  #educationTitle, #selectedEducationTitle, #testsTitle, #selectedTestsTitle {
+    margin-left: 10px;
+    margin-right: 0px;
+  }
+
+  #selectedResumeTitle, #resumeTitle {
+    margin-right: 10px;
+  }
+
+  #blog {
+    text-decoration: none;
+    color: black;
+  }
+  
+  #blog:visited {
+    color: black;
+  }
+  
+}

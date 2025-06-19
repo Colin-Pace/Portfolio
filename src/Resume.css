@@ -1,0 +1,125 @@
+#testingProfile, #stemProfile {
+  width: 180%;
+  height: 180%;
+  margin-left: -35%;
+}
+
+#resumeContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+#resumeLeft {
+  width: 40%;
+}
+
+#resumeRight {
+  width: 40%;
+  padding-left: 100px;
+}
+
+ul {
+  margin-top: -40px;
+}
+
+.stemItem {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  line-height: 150%;
+}
+
+#mathCourses {
+  margin-top: 70px;
+}
+
+#mathCourseList {
+  margin-bottom: 140px;
+}
+
+.sideTitle {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  margin-top: 0px;
+  text-decoration: underline;
+}
+
+.school, .title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.date {
+  font-size: 20px;
+}
+
+.edStint p {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 150%;
+}
+
+.moreInfo {
+  font-size: 18px;
+}
+
+#accomplishments {
+  margin-top: 87px;
+}
+
+.moreInfoRight {
+  font-size: 20px;
+  line-height: 120%;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 150%;
+}
+
+#experience {
+  margin-bottom: 100px;
+}
+
+@media (max-width: 580px) {
+  #testingProfile, #testingProfileTitle {
+    display: None;
+  }
+
+  .stemItem {
+    font-size: 16px;
+  }
+
+  #resumeContainer {
+    flex-direction: column;
+  }
+  
+  #resumeRight {
+    padding-left: 0px;
+  }
+
+  #resumeLeft {
+    width: 80%;
+  }
+
+  #experience {
+    margin-top: -50px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  #education {
+    margin-top: -50px;
+  }
+
+  .sideTitle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 0px;
+    text-decoration: underline;
+  }
+  
+  .school, .title, .moreInfoRight {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+  }
+
+  #resumeRight {
+    margin-top: 50px;
+    width: 60%;
+  }
+}
