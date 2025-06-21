@@ -41,20 +41,7 @@ function App() {
             onClick = {handleProfileClick}
             id = {display === 'profile' ? 'selectedProfileTitle' : 'profileTitle'}
           >Bio</a>
-       
-          {/* <a
-            className = 'navTitle'
-            onClick = {handleTestsClick}
-            id = {display === 'tests' ? 'selectedTestsTitle' : 'testsTitle'}
-          >Tests</a>
-
-          <a
-            className = 'navTitle'
-            onClick = {handleEducationClick}
-            id = {display === 'education' ? 'selectedEducationTitle' : 'educationTitle'}
-          >Education</a> */}
-
-
+      
           <a
             className = 'navTitle'
             onClick = {handleProjectsClick}
@@ -70,12 +57,6 @@ function App() {
             href = "https://medium.com/@colinpace1987"
             target="_blank"
           >Blog</a>
-
-          {/* <a
-            id = 'youTube'
-            href = 'https://www.youtube.com/@colinpace1987'
-            target = "_blank"
-          >YouTube</a> */}
 
         </div>
 
@@ -96,33 +77,6 @@ function App() {
       <div id = 'footer'>
         <p id = 'footerTitle'>Contact me:</p>
         <div id = 'contacts'>
-          {/* <a href = 'https://www.youtube.com/@colinpace1987'>
-            <img
-              id = 'youTubeIcon'
-              className = 'contactIcon' 
-              src = {require('./youTube.png')}
-            />
-          </a> */}
-          {/* <a
-            href = 'https://www.instagram.com/colinpace1987/?hl=en'
-            target = '_blank'
-          >
-            <img 
-              id = 'igIcon' 
-              className = 'contactIcon' 
-              src = {require('./ig_icon.png')}
-            />
-          </a>
-          <a
-            href = 'https://x.com/i/flow/login?redirect_after_login=%2FColin_Pace_1987'
-            target = '_blank'
-          >
-            <img
-              id = 'xIcon'  
-              className = 'contactIcon' 
-              src = {require('./x_icon.png')}
-            />
-          </a> */}
           <a 
             href = 'https://www.facebook.com/ColinPace1987'
             target = '_blank'
@@ -157,10 +111,6 @@ function App() {
             target = '_blank'
             rel = 'noopener noreferrer'
           >
-            {/* <img 
-              className = 'contactIcon' 
-              src = {require('./gmail.png')}
-            /> */}
           </a>
         </div>
       </div>

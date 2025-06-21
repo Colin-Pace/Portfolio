@@ -6,12 +6,12 @@ function Resume() {
     <div>
       <div id = 'resumeContainer'>
         <div id = 'resumeLeft'>
-          <div id = 'experience'>
+          <div id = 'experience'> 
             <p className = 'sideTitle'>Experience</p>
             <p className = "title">Information Processing Specialist for Tata Consultancy Services at Apple, 2024</p>
             <p className = 'title'>Hindi Teacher on Preply, 2024</p>
             <p className = 'title'>Project Coordinator for ADU Geeks, 2023</p>
-            <p className = 'title'>Research Engineering Scientist Associate I, Applied Research Laboratories (ARL) at UT Austin, 2021</p>
+            <p className = 'title'>Research Engineering Scientist Associate I, Applied Research Laboratories (ARL) at the University of Texas at Austin, 2021</p>
           </div>
 
           <div id="education" className = 'edStint'>
@@ -52,8 +52,8 @@ function Resume() {
         src = {require('./TestingProfile.png')}
       />
 
-      <p id = 'accomplishments' className = 'sideTitle'>Profile in STEM Education</p>
-      <p>While my professional roles as a GIS Analyst and a Research Engineering Scientist attest to my technological and engineering competencies, my university-level coursework in the natural sciences and mathematics extends the arc of my STEM profile.</p>
+      <p id = 'accomplishments' className = 'sideTitle'>Profile in Science, Technology, Engineering, and Mathematics (STEM)</p>
+      <p>While my professional roles as a GIS Analyst and a Research Engineering Scientist attest to my technological and engineering competencies, both my <a href="https://colin-pace.github.io/AlgorithmsAndPrograms/static/media/aap.33df4dc1ef27def7ed4e.pdf" target="_blank">book for coding</a>, written in 2022, and my university-level coursework in the natural sciences and mathematics extend the arc of my STEM profile.</p>
       <p>Courses in Natural Science at The University of Texas at Austin:</p>
       <ul>
         <li className = 'stemItem'>Ecology, Evolution, and Society</li>
@@ -69,5 +69,5 @@ function Resume() {
     </div> 
   );
 }
-
+ 
 export default Resume;
