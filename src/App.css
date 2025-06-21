@@ -72,33 +72,17 @@ a {
   margin-right: 20px;
 }
 
-#youTube {
-  font-size: 20px;
-  text-decoration: none;
-  margin-left: 20px;
-}
-
-#youTube:visited {
-  color: black;
-}
-
 .contactIcon {
   height: 35px;
   width: 35px;
 }
 
-#githubIcon {
-  margin-right: 15px;
-  margin-left: 15px;
+#linkedInIcon {
+  margin-right: 10px;
 }
 
 #facebookIcon {
-  margin-right: 15px;
-}
-
-#igIcon {
-  height: 35px;
-  width: 35px;
+  margin-left: 10px;
 }
 
 #footer {

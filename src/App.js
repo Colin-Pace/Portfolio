@@ -78,6 +78,16 @@ function App() {
         <p id = 'footerTitle'>Contact me:</p>
         <div id = 'contacts'>
           <a 
+            href = 'https://www.linkedin.com/in/colin-pace-6b7ba7241'
+            target = '_blank'
+            id = "linkedInIcon"
+          >
+            <img 
+              className = 'contactIcon' 
+              src = {require('./linkedIn.png')}
+            />
+          </a>
+          <a 
             href = 'https://www.facebook.com/ColinPace1987'
             target = '_blank'
             id = 'facebookIcon'
@@ -86,31 +96,6 @@ function App() {
               className = 'contactIcon' 
               src = {require('./facebookIcon.png')}
             />
-          </a>
-          <a 
-            href = 'https://www.linkedin.com/in/colin-pace-6b7ba7241'
-            target = '_blank'
-          >
-            <img 
-              className = 'contactIcon' 
-              src = {require('./linkedIn.png')}
-            />
-          </a>
-          <a 
-            href = 'https://github.com/Colin-Pace?tab=repositories'
-            target = '_blank'  
-          >
-            <img 
-              id = 'githubIcon' 
-              className = 'contactIcon' 
-              src = {require('./github.png')}
-            />
-          </a>
-          <a
-            href = 'mailto:colinpace1987@gmail.com'
-            target = '_blank'
-            rel = 'noopener noreferrer'
-          >
           </a>
         </div>
       </div>
