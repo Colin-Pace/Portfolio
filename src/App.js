@@ -103,7 +103,7 @@ function App() {
               src = {require('./youTube.png')}
             />
           </a> */}
-          <a
+          {/* <a
             href = 'https://www.instagram.com/colinpace1987/?hl=en'
             target = '_blank'
           >
@@ -121,6 +121,16 @@ function App() {
               id = 'xIcon'  
               className = 'contactIcon' 
               src = {require('./x_icon.png')}
+            />
+          </a> */}
+          <a 
+            href = 'https://www.facebook.com/ColinPace1987'
+            target = '_blank'
+            id = 'facebookIcon'
+          >
+            <img 
+              className = 'contactIcon' 
+              src = {require('./facebookIcon.png')}
             />
           </a>
           <a 
@@ -147,10 +157,10 @@ function App() {
             target = '_blank'
             rel = 'noopener noreferrer'
           >
-            <img 
+            {/* <img 
               className = 'contactIcon' 
               src = {require('./gmail.png')}
-            />
+            /> */}
           </a>
         </div>
       </div>
