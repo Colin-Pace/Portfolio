@@ -83,25 +83,6 @@ function Projects() {
       <div className = 'projectImageContainer'>
         <img 
           className = 'projectImage'
-          src = {require('./nyt.png')}
-        />
-      </div>
-      <h3 className = 'imageTitle'>NYT Best Sellers Clone</h3>
-      <p className = 'imageText'>The New York Times Best Sellers Clone is a front end application that displays the current best selling books on the New York Times list. Other features of the application are the abilities of the user to select a type of book that they want to view and also the date of the selection. The application uses React component classes, and more information abou the technology is in the ReadMe on GitHub.</p>
-      <div className = 'imageLinks'>
-        <a 
-          href="https://colin-pace.github.io/NYT-Best-Sellers/"
-          target="_blank"
-        >Live app</a><br/><br/>
-        <a 
-          href="https://github.com/Colin-Pace/NYT-Best-Sellers"
-          target="_blank" 
-        >GitHub</a>
-      </div>
-
-      <div className = 'projectImageContainer'>
-        <img 
-          className = 'projectImage'
           src = {require('./dijkstra.png')}
         />
       </div>

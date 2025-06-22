@@ -54,7 +54,7 @@ function Resume() {
         id = 'testingProfile' 
         src = {require('./TestingProfile.png')}
       />
-
+      
       <p id = 'accomplishments' className = 'sideTitle'>Profile in Science, Technology, Engineering, and Mathematics (STEM)</p>
       <p>My professional roles as a GIS Analyst and a Research Engineering Scientist attest to my STEM competencies.</p>
       <p>Other milestones: 
@@ -78,5 +78,5 @@ function Resume() {
     </div> 
   );
 }
- 
+  
 export default Resume;
