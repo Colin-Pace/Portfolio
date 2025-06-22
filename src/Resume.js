@@ -32,6 +32,7 @@ function Resume() {
           </div>
         </div>
         <div id = 'resumeRight'>
+          
           <p className = 'sideTitle'>Skills</p>
           <p className = 'moreInfoRight'>Geographic Information Systems (GIS)</p>
           <p className = 'moreInfoRight'>Project Management</p>
@@ -39,10 +40,12 @@ function Resume() {
           <p className = 'moreInfoRight'>Google Docs, Sheets, Slides</p>
           <p className = 'moreInfoRight'>Microsoft Office</p>
           <p className = 'moreInfoRight'>Hindi (conversational)</p>
+          
           <p id = 'accomplishments' className = 'sideTitle'>Accomplishments</p>
-          <p className = 'moreInfoRight'>Co-Supervised MA Report by the Director of the Hindi Urdu Flagship at UT Austin via the U.S. Department of Defense, 2014</p>
+          <p className = 'moreInfoRight'>MA Report Co-Supervised by the Director of the Hindi Urdu Flagship at UT Austin via the U.S. Department of Defense, 2014</p>
           <p className = 'moreInfoRight'>U.S. National Science Foundation (NSF) Graduate Research Fellowship, 2013</p>
           <p className = 'moreInfoRight'>Foreign Language and Area Studies (FLAS) Fellowship, South Asia Institute at UT Austin via the U.S. Department of Education, 2013</p>
+
         </div>
       </div>
 
