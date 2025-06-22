@@ -52,6 +52,9 @@ function App() {
             onClick = {handleResumeClick}
             id = {display === 'resume' ? 'selectedResumeTitle' : 'resumeTitle'}
           >CV</a>
+          <a
+            href="https://medium.com/@colinpace1987" target="_blank" id = "blogLink"
+          >Science Blog</a>
         </div>
 
       </div>
