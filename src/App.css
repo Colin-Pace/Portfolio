@@ -98,6 +98,10 @@ a {
   body {
     margin: 5%;
   }
+
+  #navbarBookLink {
+    margin-left: 10px;
+  }
   
   #top {
     flex-direction: column;
