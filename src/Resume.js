@@ -57,7 +57,7 @@ function Resume() {
       <p>Other milestones: 
       <ul>
         <li className = 'stemItem'><a href="https://colin-pace.github.io/AlgorithmsAndPrograms/static/media/aap.33df4dc1ef27def7ed4e.pdf" target="_blank" id = "bookLink">Algorithms and Programs</a>, a book I wrote about coding</li>
-        <li className = 'stemItem'><a id = 'mediumLink' href = "https://medium.com/@colinpace1987" target="_blank" >My blog</a> about the natural sciences on the Medium site</li>
+        <li className = 'stemItem'><a id = 'mediumLink' href = "https://medium.com/@colinpace1987" target="_blank" >My Medium blog</a> about the natural sciences</li>
       </ul></p>
       
       <p>These are courses I took in natural science at The University of Texas at Austin:</p>
