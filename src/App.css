@@ -120,16 +120,6 @@ a {
     margin-left: 0px;
   }
 
-  #youTube {
-    margin-left: 10px;
-    text-decoration: none;
-    color: black;
-  }
-
-  #youTube:visited {
-    color: black;
-  }
-
   #selectedProfileTitle, #selectedProjectsTitle, #selectedResumeTitle, #profileTitle, #projectsTitle, #resumeTitle {
     margin-left: 0;
     margin-right: 0;

@@ -4,6 +4,14 @@
   margin-left: -35%;
 }
 
+#mediumLink {
+  text-decoration: underline;
+}
+
+#mediumlink:visited {
+  color: black;
+}
+
 #testingProfileTitle {
   margin-top: 70px;
 }

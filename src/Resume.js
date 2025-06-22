@@ -53,8 +53,14 @@ function Resume() {
       />
 
       <p id = 'accomplishments' className = 'sideTitle'>Profile in Science, Technology, Engineering, and Mathematics (STEM)</p>
-      <p>While my professional roles as a GIS Analyst and a Research Engineering Scientist attest to my technological and engineering competencies, both my <a href="https://colin-pace.github.io/AlgorithmsAndPrograms/static/media/aap.33df4dc1ef27def7ed4e.pdf" target="_blank">book for coding</a>, written in 2022, and my university-level coursework in the natural sciences and mathematics extend the arc of my STEM profile.</p>
-      <p>Courses in Natural Science at The University of Texas at Austin:</p>
+      <p>My professional roles as a GIS Analyst and a Research Engineering Scientist attest to my STEM competencies.</p>
+      <p>Other milestones: 
+      <ul>
+        <li className = 'stemItem'><a href="https://colin-pace.github.io/AlgorithmsAndPrograms/static/media/aap.33df4dc1ef27def7ed4e.pdf" target="_blank" id = "bookLink">Algorithms and Programs</a>, a book I wrote about coding</li>
+        <li className = 'stemItem'><a id = 'mediumLink' href = "https://medium.com/@colinpace1987" target="_blank" >My blog</a> about the natural sciences on the Medium site</li>
+      </ul></p>
+      
+      <p>These are courses I took in natural science at The University of Texas at Austin:</p>
       <ul>
         <li className = 'stemItem'>Ecology, Evolution, and Society</li>
         <li className = 'stemItem'>Introduction to Astronomy</li>
