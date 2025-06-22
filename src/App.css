@@ -30,6 +30,12 @@ body {
   color: black;
 }
 
+#navbarBookLink {
+  text-decoration: None;
+  color: black;
+  margin-left: 20px;
+}
+
 a {
   cursor: pointer;
 }
@@ -50,12 +56,8 @@ a {
   margin-left: 50px;
 }
 
-#selectedProfileTitle, #selectedEducationTitle, #selectedTestsTitle, #selectedProjectsTitle, #selectedResumeTitle {
+#selectedProfileTitle, #selectedProjectsTitle, #selectedResumeTitle {
   text-decoration: underline;
-}
-
-#educationTitle, #selectedEducationTitle, #selectedTestsTitle, #testsTitle {
-  margin-left: 20px;
 }
 
 #projectsTitle, #selectedProjectsTitle {

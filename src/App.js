@@ -53,8 +53,16 @@ function App() {
             id = {display === 'resume' ? 'selectedResumeTitle' : 'resumeTitle'}
           >CV</a>
           <a
-            href="https://medium.com/@colinpace1987" target="_blank" id = "blogLink"
+            href="https://medium.com/@colinpace1987" 
+            target="_blank" 
+            id = "blogLink"
+            className = 'navTitle'
           >Science Blog</a>
+          <a 
+          className = 'navTitle'
+          href="https://colin-pace.github.io/AlgorithmsAndPrograms/static/media/aap.33df4dc1ef27def7ed4e.pdf" 
+          target="_blank" 
+          id = "navbarBookLink">Coding Book</a>
         </div>
 
       </div>
