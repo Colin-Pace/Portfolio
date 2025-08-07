@@ -80,7 +80,7 @@ function App() {
         }
 
       <div id = 'footer'>
-        <p id = 'footerTitle'>Contact me:</p>
+        <p id = 'footerTitle'>Contact Links:</p>
         <div id = 'contacts'>
           <a 
             href = 'https://www.linkedin.com/in/colin-pace-6b7ba7241'
