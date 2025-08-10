@@ -169,4 +169,12 @@ th {
   .milestone {
     font-size: 16px;
   }
+
+  .testTitle {
+    font-size: 16px;
+  }
+
+  .profileItem {
+    font-size: 16px;
+  }
 }
