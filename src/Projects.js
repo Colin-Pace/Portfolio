@@ -63,10 +63,11 @@ function Projects() {
         >GitHub</a>
       </div>
 
-      <div className = 'projectImageContainer'>
+      <div id = 'bookImage'>
         <img 
-          className = 'projectImage'
-          src = {require('./aap.png')}
+          // className = 'projectImage'
+          id = 'bookImage'
+          src = {require('./bookImage.png')}
         />
       </div>
       <h3 className = 'imageTitle' id="bookLink">Algorithms and Programs: An introduction with JavaScript</h3>
