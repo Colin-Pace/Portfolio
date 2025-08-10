@@ -198,9 +198,13 @@ function Resume() {
       <p className = "profileItem">Milestones: 
         <ul>
           <li className = 'stemItem'>Professional roles as a GIS Analyst and a Research Engineering Scientist</li>
-          <li className = 'stemItem'><a href="https://colin-pace.github.io/AlgorithmsAndPrograms/static/media/aap.33df4dc1ef27def7ed4e.pdf" target="_blank" className = 'milestone' id = "bookLink">Algorithms and Programs</a>, a book I wrote about coding</li>
+          
           <li className = 'stemItem'><a className = 'milestone' id = 'mediumLink' href = "https://medium.com/@colinpace1987" target="_blank">My Medium blog</a> about the natural sciences</li>
-        </ul></p>
+          
+          <li className = 'stemItem'><a href="https://colin-pace.github.io/AlgorithmsAndPrograms/static/media/aap.33df4dc1ef27def7ed4e.pdf" target="_blank" className = 'milestone' id = "bookLink">Algorithms and Programs</a>, a book I wrote about coding</li>
+          
+        </ul>
+      </p>
         
         <p className = "profileItem">Courses I took in natural science at The University of Texas at Austin:</p>
         <ul>
