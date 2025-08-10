@@ -64,8 +64,7 @@ function Projects() {
       </div>
 
       <div id = 'bookImage'>
-        <img 
-          // className = 'projectImage'
+        <img
           id = 'bookImage'
           src = {require('./bookImage.png')}
         />
