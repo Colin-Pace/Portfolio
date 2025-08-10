@@ -3,7 +3,6 @@ import './App.css';
 import Profile from './Profile';
 import Projects from './Projects';
 import Resume from './Resume';
-import Tests from './Tests';
 import Education from './Education';
 
 function App() {
@@ -70,14 +69,12 @@ function App() {
       
       { display === 'profile' ? 
         <Profile/> :
-          display === 'tests' ?
-          <Tests/> :
-            display === 'education' ?
-              <Education/> :
-                display === 'projects' ?
-                  <Projects/> :
-                  <Resume/>
-        }
+          display === 'education' ?
+            <Education/> :
+              display === 'projects' ?
+                <Projects/> :
+                <Resume/>
+      }
 
       <div id = 'footer'>
         <p id = 'footerTitle'>Contact Links:</p>

@@ -1,3 +1,7 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 #testingProfile, #stemProfile {
   width: 180%;
   height: 180%;
@@ -17,7 +21,6 @@
 }
 
 p {
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   line-height: 150%;
 }
@@ -37,7 +40,6 @@ p {
 }
 
 .stemItem {
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   line-height: 150%;
 }
@@ -51,14 +53,12 @@ p {
 }
 
 .sideTitle {
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 35px;
   margin-top: 0px;
   text-decoration: underline;
 }
 
 .school, .title {
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
 }
 
@@ -67,7 +67,6 @@ p {
 }
 
 .edStint p {
-  font-family: Arial, Helvetica, sans-serif;
   line-height: 150%;
 }
 
@@ -82,7 +81,6 @@ p {
 .moreInfoRight {
   font-size: 20px;
   line-height: 120%;
-  font-family: Arial, Helvetica, sans-serif;
   width: 150%;
 }
 
@@ -90,9 +88,43 @@ p {
   margin-bottom: 100px;
 }
 
+h3 {
+  color: grey;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 40px;
+    font-size: 14px;
+  }
+
+th, td {
+  border: 1px solid #333;
+  padding: 6px 8px;
+  vertical-align: middle;
+  text-align: left;
+}
+
+th {
+  background-color: #eee;
+  font-weight: bold;
+  text-align: left;
+}
+
+/* Bold for test names and section titles */
+.test-name {
+  font-weight: bold;
+}
+
+/* Gray background for summary rows */
+.summary-row {
+  background-color: #ccc;
+}
+
 @media (max-width: 580px) {
-  #testingProfile, #testingProfileTitle {
-    display: None;
+  #tableContainer {
+    overflow-x: auto;
   }
 
   .stemItem {
@@ -113,7 +145,6 @@ p {
 
   #experience {
     margin-top: -50px;
-    font-family: Arial, Helvetica, sans-serif;
   }
 
   #education {
@@ -121,19 +152,21 @@ p {
   }
 
   .sideTitle {
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     margin-top: 0px;
     text-decoration: underline;
   }
   
   .school, .title, .moreInfoRight {
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
   }
 
   #resumeRight {
     margin-top: 50px;
     width: 60%;
+  }
+
+  .milestone {
+    font-size: 16px;
   }
 }
