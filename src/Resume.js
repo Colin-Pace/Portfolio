@@ -212,7 +212,8 @@ function Resume() {
           <li className = 'stemItem'>Introduction to Astronomy</li>
           <li className = 'stemItem'>Galaxies, Quasars, and the Universe</li>
         </ul>
-        <p className = "profileItem" id = "mathCourses">Courses in Mathematics at university:</p>
+       
+        <p className = "profileItem" id = "mathCourses">Courses in mathematics at university:</p>
         <ul id = "mathCourseList">
           <li className = 'stemItem'>Credit for Introduction to Probability and Statistics at The University of North Texas from an Advanced Placement score </li>
           <li className = 'stemItem'>College Algebra at The University of North Texas</li>
