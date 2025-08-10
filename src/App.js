@@ -3,7 +3,6 @@ import './App.css';
 import Profile from './Profile';
 import Projects from './Projects';
 import Resume from './Resume';
-import Education from './Education';
 
 function App() {
   const [display, setDisplay] = useState('profile');
@@ -69,8 +68,6 @@ function App() {
       
       { display === 'profile' ? 
         <Profile/> :
-          display === 'education' ?
-            <Education/> :
               display === 'projects' ?
                 <Projects/> :
                 <Resume/>
@@ -79,16 +76,7 @@ function App() {
       <div id = 'footer'>
         <p id = 'footerTitle'>Social Media Links:</p>
         <div id = 'contacts'>
-          <a 
-            href = 'https://www.linkedin.com/in/colin-pace-6b7ba7241'
-            target = '_blank'
-            id = "linkedInIcon"
-          >
-            <img 
-              className = 'contactIcon' 
-              src = {require('./linkedIn.png')}
-            />
-          </a>
+
           <a 
             href = 'https://www.facebook.com/ColinPace1987'
             target = '_blank'
@@ -99,6 +87,18 @@ function App() {
               src = {require('./facebookIcon.png')}
             />
           </a>
+
+          <a 
+            href = 'https://www.linkedin.com/in/colin-pace-6b7ba7241'
+            target = '_blank'
+            id = "linkedInIcon"
+          >
+            <img 
+              className = 'contactIcon' 
+              src = {require('./linkedIn.png')}
+            />
+          </a>
+          
         </div>
       </div>
     </div>

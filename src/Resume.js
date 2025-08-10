@@ -44,7 +44,7 @@ function Resume() {
           <p id = 'accomplishments' className = 'sideTitle'>Accomplishments</p>
           <p className = 'moreInfoRight'>MA Report Co-Supervised by the Director of the Hindi Urdu Flagship at UT Austin, 2014</p>
           <p className = 'moreInfoRight'>U.S. National Science Foundation (NSF) Graduate Research Fellowship, 2013</p>
-          <p className = 'moreInfoRight'>Foreign Language and Area Studies (FLAS) Fellowship, South Asia Institute at UT Austin, 2013</p>
+          <p className = 'moreInfoRight'>Foreign Language and Area Studies (FLAS) Fellowship from The South Asia Institute at UT Austin, 2013</p>
 
         </div>
       </div>
