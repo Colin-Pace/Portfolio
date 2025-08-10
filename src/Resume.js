@@ -172,7 +172,7 @@ function Resume() {
         </thead>
         <tbody>
           <tr>
-            <td rowSpan="8" className="test-name">1996</td>
+            <td rowSpan="8">1996</td>
             <td rowSpan="8">3</td>
             <td rowSpan="8">9</td>
           </tr>
@@ -181,7 +181,7 @@ function Resume() {
         </tbody>
         <tbody>
           <tr>
-            <td rowSpan="8" className="test-name">2001</td>
+            <td rowSpan="8">2001</td>
             <td rowSpan="8">8</td>
             <td rowSpan="8">14</td>
           </tr>
