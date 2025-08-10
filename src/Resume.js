@@ -9,9 +9,9 @@ function Resume() {
           <div id = 'experience'> 
             <p className = 'sideTitle'>Experience</p>
             <p className = "title">Information Processing Specialist for Tata Consultancy Services at Apple, 2024</p>
-            <p className = 'title'>Hindi Teacher on Preply, 2024</p>
+            <p className = 'title'>Hindi Teacher for Preply, 2024</p>
             <p className = 'title'>Project Coordinator for ADU Geeks, 2023</p>
-            <p className = 'title'>Research Engineering Scientist Associate I, Applied Research Laboratories (ARL) at the University of Texas at Austin, 2021</p>
+            <p className = 'title'>Research Engineering Scientist Associate I for Applied Research Laboratories (ARL) at The University of Texas at Austin (UT Austin), 2021</p>
           </div>
 
           <div id="education" className = 'edStint'>
@@ -20,7 +20,7 @@ function Resume() {
           </div>
 
           <div className = 'edStint'>
-            <p className = 'school'>Coding Boot Camp Certificate, The University of Texas at Austin, 2021</p>
+            <p className = 'school'>Coding Boot Camp Certificate, UT Austin, 2021</p>
           </div>
 
           <div className = 'edStint'>
