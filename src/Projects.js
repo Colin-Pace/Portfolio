@@ -11,7 +11,7 @@ function Projects() {
         />
       </div>  
       <h3 className = 'imageTitle'>Gem Search</h3>    
-      <p className = 'imageText'>Designed specifically for desktops, Gem Search is a front-end game that enables a player use the up, down, left, and right arrow keys to move a green image around the screen and collect the blue image for points. If the green image touches an orange image, the game ends. There is an option for an easy or hard level. Also there is a score that keeps track of points. Gem Search uses object-oriented design, with classes for the board, player, gem, and opponents (the opponents are called "traffic" after the frogger game). Gem Search can be thought of as a combination of Frogger and Snake. The technology used in the application is described in the GitHub ReadMe. Below, there are links to the live app and to the GitHub page.</p>
+      <p className = 'imageText'>Designed specifically for desktops, Gem Search is a front-end game that enables a player to use the up, down, left, and right arrow keys to move a green image around the screen and collect the blue image for points. If the green image touches an orange image, the game ends. There is an option for an easy or hard level. Also there is a score that keeps track of points. Gem Search uses object-oriented design, with classes for the board, player, gem, and opponents (the opponents are called "traffic" after the frogger game). Gem Search can be thought of as a combination of Frogger and Snake. The technology used in the application is described in the GitHub ReadMe. Below, there are links to the live app and to the GitHub page.</p>
       <div className = 'imageLinks'>
         <a 
           href="https://colin-pace.github.io/Gem-Search/"
