@@ -167,7 +167,7 @@ function Resume() {
             <th>Grade</th>
             <th>Age</th>
             <th>Subject</th>
-            <th>Items Corrent / Number of Items</th>
+            <th>Items Correct / Number of Items</th>
           </tr>
         </thead>
         <tbody>
