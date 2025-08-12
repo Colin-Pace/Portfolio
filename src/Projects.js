@@ -31,7 +31,7 @@ function Projects() {
         />
       </div>  
       <h3 className = 'imageTitle'>Notes Organizer</h3>    
-      <p className = 'imageText'>Notes organizer is a front-end application that has a user to create, read, update, and delete notes. Another feature of the application is a sorting option, which sorts notes according to the time of their creation, either from newest to oldest or from oldest to newest.</p>
+      <p className = 'imageText'>Notes organizer is a front-end application that has a user create, read, update, and delete notes. Another feature of the application is a sorting option, which sorts notes according to the time of their creation, either from newest to oldest or from oldest to newest.</p>
       <div className = 'imageLinks'>
         <a 
           href="https://colin-pace.github.io/Notes/"
