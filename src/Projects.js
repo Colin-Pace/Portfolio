@@ -44,25 +44,6 @@ function Projects() {
       </div>
       
 
-      <div className = 'projectImageContainer'>
-        <img 
-          className = 'projectImage'
-          src = {require('./dijkstra.png')}
-        />
-      </div>
-      <h3 className = 'imageTitle'>Dijkstra's Algorithm Illustrated</h3>
-      <p className = 'imageText'>This is a game that illustrates Dijkstra's algorithm, which finds the shortest path between two points. The game is to use the arrow keys to move away from the green block that follows the user's blue block. The path that the green block takes is determined by Dijkstra's algorithm and is illustrated with orange blocks. The board is a wrap-around board, which allows the user to move easily from either side of the board to the other, whether horizontally or vertically.</p>
-      <div className = 'imageLinks'>
-        <a 
-          href="https://colin-pace.github.io/Dijkstra-Illustrated/"
-          target="_blank"
-        >Live app</a><br/><br/>
-        <a 
-          href="https://github.com/Colin-Pace/Dijkstra-Illustrated" 
-          target="_blank"
-        >GitHub</a>
-      </div>
-
       <div id = 'bookImage'>
         <img
           id = 'bookImage'
