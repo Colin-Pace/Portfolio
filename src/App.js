@@ -74,10 +74,11 @@ function App() {
       }
 
       <div id = 'footer'>
-        <p id = 'footerTitle'>Social Media Links:</p>
-        <div id = 'contacts'>
+        <p id = 'footerTitle'>Email Address:</p>
 
-          <a 
+        <p>pace.colin@icloud.com</p>
+
+          {/* <a 
             href = 'https://www.facebook.com/ColinPace1987'
             target = '_blank'
             id = 'facebookIcon'
@@ -97,9 +98,9 @@ function App() {
               className = 'contactIcon' 
               src = {require('./linkedIn.png')}
             />
-          </a>
+          </a> */}
           
-        </div>
+   
       </div>
     </div>
   );
