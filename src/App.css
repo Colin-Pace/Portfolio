@@ -7,7 +7,7 @@ body {
 }
 
 .App {
-  max-width: 750px;
+  max-width: 800px;
   margin: auto;
 }
 
@@ -73,14 +73,6 @@ a {
   width: 35px;
 }
 
-#linkedInIcon {
-  margin-left: 10px;
-}
-
-#facebookIcon {
-  margin-right: 10px;
-}
-
 #footer {
   margin-top: 40px;
   margin-bottom: 100px;
@@ -98,7 +90,7 @@ a {
   }
 
   #navbarBookLink {
-    margin-left: 12px;
+    margin-left: 8px;
   }
   
   #top {
@@ -107,12 +99,12 @@ a {
   }
 
   #nameTitle {
-    font-size: 30px;
+    font-size: 25px;
     width: 100%;
   }
 
   .navTitle, #blog, #youTube {
-    font-size: 14px;
+    font-size: 10px;
   }
 
   #profileTitle, #selectedProfileTitle {

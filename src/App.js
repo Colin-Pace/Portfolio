@@ -61,6 +61,11 @@ function App() {
           href="https://colin-pace.github.io/AlgorithmsAndPrograms/static/media/aap.33df4dc1ef27def7ed4e.pdf" 
           target="_blank" 
           id = "navbarBookLink">Coding Book</a>
+          <a 
+          className = 'navTitle'
+          href="https://youtube.com/@colinpace-o8g?si=g4NKZfl6UL8sb2cb" 
+          target="_blank" 
+          id = "navbarBookLink">YouTube</a>
         </div>
 
       </div>
@@ -78,27 +83,7 @@ function App() {
 
         <p>pace.colin@icloud.com</p>
 
-          {/* <a 
-            href = 'https://www.facebook.com/ColinPace1987'
-            target = '_blank'
-            id = 'facebookIcon'
-          >
-            <img 
-              className = 'contactIcon' 
-              src = {require('./facebookIcon.png')}
-            />
-          </a>
-
-          <a 
-            href = 'https://www.linkedin.com/in/colin-pace-6b7ba7241'
-            target = '_blank'
-            id = "linkedInIcon"
-          >
-            <img 
-              className = 'contactIcon' 
-              src = {require('./linkedIn.png')}
-            />
-          </a> */}
+        
           
    
       </div>
