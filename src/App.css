@@ -104,7 +104,7 @@ a {
   }
 
   .navTitle, #blog, #youTube {
-    font-size: 10px;
+    font-size: 13px;
   }
 
   #profileTitle, #selectedProfileTitle {
@@ -137,6 +137,10 @@ a {
   
   #blog:visited {
     color: black;
+  }
+
+  #footerTitle, #footer p, #footer a {
+    font-size: 16px;
   }
   
 }
