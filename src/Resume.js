@@ -9,8 +9,6 @@ function Resume() {
           <div id = 'experience'> 
             <p className = 'sideTitle'>Experience</p>
             <p className = "title">Information Processing Specialist for Tata Consultancy Services at Apple, 2024</p>
-            <p className = 'title'>Hindi Teacher for Preply, 2024</p>
-            <p className = 'title'>Project Coordinator for ADU Geeks, 2023</p>
             <p className = 'title'>Research Engineering Scientist Associate I for Applied Research Laboratories (ARL) at The University of Texas at Austin (UT Austin), 2021</p>
           </div>
 
