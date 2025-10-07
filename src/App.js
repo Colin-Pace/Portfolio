@@ -84,8 +84,6 @@ function App() {
       <div id = 'footer'>
         <p id = 'footerTitle'>Around the Web</p>
 
-        <p>Email: pace.colin@icloud.com</p>
-
         <a 
           className = 'AW'
           href="https://youtube.com/@colinpace-o8g?si=g4NKZfl6UL8sb2cb" 
@@ -120,7 +118,7 @@ function App() {
         
         >X</a>
         
-          
+        <p>Email: pace.colin@icloud.com</p>
    
       </div>
     </div>

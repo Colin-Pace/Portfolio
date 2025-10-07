@@ -160,8 +160,16 @@ a {
     color: black;
   }
 
+  #footer {
+    text-align: start;
+  }
+
   #footerTitle, #footer p, #footer a {
     font-size: 16px;
+  }
+
+  #footerTitle {
+    font-weight: bold;;
   }
   
 }
