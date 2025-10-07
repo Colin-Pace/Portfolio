@@ -5,6 +5,7 @@
 
 #firstParagraph {
   margin-top: 80px;
+  line-height: 200%;
 }
 
 .profileText {
@@ -14,7 +15,7 @@
   margin-bottom: 50px;
 }
 
-.lastText {
+#lastText {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   line-height: 200%;
@@ -22,11 +23,16 @@
 }
 
 @media (max-width: 580px) {
-  .profileText, .lastText {
-    font-size: 16px;
+  /* .profileText, .lastText {
+    font-size: 14px;
   }
 
   #yTLink {
     font-size: 16px;
+  } */
+
+  #firstParagraph, #lastText {
+    font-size: 14px;
+    line-height: 200%;
   }
 }
