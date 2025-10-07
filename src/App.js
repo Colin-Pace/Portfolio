@@ -35,32 +35,39 @@ function App() {
         
         <div id = "navBar">
           <a 
-            className = 'navTitle'
             onClick = {handleProfileClick}
             id = {display === 'profile' ? 'selectedProfileTitle' : 'profileTitle'}
-          >Bio</a>
-       
+          >Profile</a>
+
           <a
-            className = 'navTitle'
-            onClick = {handleProjectsClick}
-            id = {display === 'projects' ? 'selectedProjectsTitle' : 'projectsTitle'}
-          >Code</a>
-          <a
-            className = 'navTitle'
             onClick = {handleResumeClick}
             id = {display === 'resume' ? 'selectedResumeTitle' : 'resumeTitle'}
           >CV</a>
+
+          <a
+            onClick = {handleProjectsClick}
+            id = {display === 'projects' ? 'selectedProjectsTitle' : 'projectsTitle'}
+          >Code</a>
+
+          <a 
+            id = 'autobioLink'
+            href = {require('./potentiallyUnprecedented.pdf')}
+            target="_blank"
+          >
+            Autobiography
+          </a>
+
           <a
             href="https://medium.com/@colinpace1987" 
             target="_blank" 
             id = "blogLink"
-            className = 'navTitle'
           >Science Articles</a>
+
           <a 
-          className = 'navTitle'
-          href="https://colin-pace.github.io/AlgorithmsAndPrograms/static/media/aap.33df4dc1ef27def7ed4e.pdf" 
-          target="_blank" 
-          id = "navbarBookLink">Coding Book</a>
+            href="https://colin-pace.github.io/AlgorithmsAndPrograms/static/media/aap.33df4dc1ef27def7ed4e.pdf" 
+            target="_blank" 
+            id = "codingBookLink"
+          >Coding Book</a>
           
         </div>
 
