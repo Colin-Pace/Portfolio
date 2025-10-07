@@ -23,16 +23,8 @@
 }
 
 @media (max-width: 580px) {
-  /* .profileText, .lastText {
-    font-size: 14px;
-  }
-
-  #yTLink {
-    font-size: 16px;
-  } */
-
   #firstParagraph, #lastText {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 200%;
   }
 }
