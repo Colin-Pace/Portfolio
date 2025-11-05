@@ -110,6 +110,18 @@ function App() {
         <br></br>
 
         <a
+
+          className = 'AW'
+          href="https://www.instagram.com/colinpace1987?igsh=MW10dWs5NzlucmxmeQ%3D%3D&utm_source=qr" 
+          target="_blank" 
+          id = ""
+        
+        >Instagram</a>
+
+        <br></br>
+        <br></br>
+
+        <a
   
           className = 'AW'
           href="https://x.com/colin_pace_1987?s=21&t=n3_aN2-S346aY0LHuCzdhA" 
