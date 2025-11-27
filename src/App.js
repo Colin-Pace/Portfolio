@@ -51,7 +51,7 @@ function App() {
 
           <a 
             id = 'autobioLink'
-            href = {require('./potentiallyUnprecedented.pdf')}
+            href = {require('./SuperlativeIntelligence.pdf')}
             target="_blank"
           >
             Autobiography
