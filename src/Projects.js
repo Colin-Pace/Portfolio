@@ -23,6 +23,26 @@ function Projects() {
         >GitHub</a>
       </div>
 
+
+      <div className = 'projectImageContainer'>
+        <img 
+          className = 'projectImage'
+          src = {require('./dijkstraIllustrated.png')}
+        />
+      </div>  
+      <h3 className = 'imageTitle'>Dijkstra Illustrated</h3>    
+      <p className = 'imageText'>The app is a fun game that illustrates Dijkstra's Algorithm. A type of a graph search, Dijkstra's Algorithm finds the shortest path in a non-negatively weighted graph. For example, if you open a maps application, like Google Maps, to find a route between your current location and a destination, it's likely that the program uses Dijkstra's Algorithm. The point of the game is to use the arrow keys to move the blue image around the screen while the green image follows the blue image. The yellow line between the blue and green images is the shortest path between the two images, which the green image takes to reach the blue one. Once the green image reaches the blue image, the game ends. In the game, there is a single obstacle that is in the center of the game board, and the obstacle obstructs movement by the player and opponent. The game board is a wrap-around board, enabling the player easily to move from side to side. The game is coded with JavaScript and no libraries. The game uses object oriented design with classes for the grid, player, opponent, and obstacle.</p>
+      <div className = 'imageLinks'>
+        <a 
+          href="https://colin-pace.github.io/Dijkstra-Illustrated/"
+          target="_blank"
+        >Live app</a><br/><br/>
+        <a 
+          href="https://github.com/Colin-Pace/Dijkstra-Illustrated/tree/main"
+          target="_blank" 
+        >GitHub</a>
+      </div>
+
        
       <div className = 'projectImageContainer'>
         <img 
