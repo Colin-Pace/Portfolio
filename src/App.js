@@ -49,14 +49,6 @@ function App() {
             id = {display === 'projects' ? 'selectedProjectsTitle' : 'projectsTitle'}
           >Code</a>
 
-          <a 
-            id = 'autobioLink'
-            href = {require('./SuperlativeIntelligence.pdf')}
-            target="_blank"
-          >
-            Autobiography
-          </a>
-
           <a
             href="https://medium.com/@colinpace1987" 
             target="_blank" 
